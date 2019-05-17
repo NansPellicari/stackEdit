@@ -47,6 +47,22 @@ What is <strong>not a problem</strong> here: referrer is not lost when user goes
 <td align="center"><em>IFRAME - Html - PostMessage - Send</em></td>
 <td>Print JS script which sends the custom event <code>custom.postMessage.page</code> to the parent thanks to the <strong>famous</strong> <a href="https://developer.mozilla.org/fr/docs/Web/API/Window/postMessage">postMessage</a>  method.</td>
 </tr>
+<tr>
+<td align="center"><em>IFRAME - Html - PostMessage - Receive</em></td>
+<td>Print JS script which retrieve the message from  the <a href="https://developer.mozilla.org/fr/docs/Web/API/Window/postMessage">postMessage</a>  method and push data to the <code>dataLayer</code>. That’s what creates the <code>custom.postMessage.page</code> event.</td>
+</tr>
+<tr>
+<td align="center"><em>GA - Pageview - Virtual - postMessage</em></td>
+<td>This tag is waiting for the <code>custom.postMessage.page</code> event. It retrieves data from <code>dataLayer</code> to build <strong>GA PageView hit</strong> with the path of the <strong>Iframe’s URL</strong></td>
+</tr>
+<tr>
+<td align="center"><em>4escape - Wait for Var - OrderId is set</em></td>
+<td>Print JS when  <code>4escape - Payment Succcess Page</code> is triggered. The script waits until <code>window.orderId</code> var is defined and push <code>custom.waitForVar.OrderId</code> event to the <code>dataLayer</code>. This is a necessary step before sending <em>GA - Conversion</em>, <em>Pixel Facebook - Conversion</em> and <em>Adwords - Conversion</em></td>
+</tr>
+<tr>
+<td align="center"><em>Google Analytics - Pageview - Not Iframe</em></td>
+<td>Create a GA PageView hit for all pages (<strong>4escape</strong> and <strong>Continuum</strong> pages included) which are not calls in Iframe</td>
+</tr>
 </tbody>
 </table><blockquote>
 <p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
