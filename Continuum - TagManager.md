@@ -46,8 +46,8 @@ What is <strong>not a problem</strong> here: referrer is not lost when user goes
 <tbody>
 <tr>
 <td align="center"><em>IFRAME - Html - PostMessage - Send</em></td>
-<td>Print JS script which sends the custom event <code>custom.postMessage.page</code> to the parent thanks to the <strong>famous</strong> <code>postMessage</code> method.</td>
-<td></td>
+<td>Print JS script which sends the custom event <code>custom.postMessage.page</code> to the parent thanks to the <strong>famous</strong> <a href="https://developer.mozilla.org/fr/docs/Web/API/Window/postMessage">postMessage</a>  method.</td>
+<td><code>4escape - iframe</code></td>
 </tr>
 </tbody>
 </table><blockquote>
