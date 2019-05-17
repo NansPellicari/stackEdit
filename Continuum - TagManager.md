@@ -7,8 +7,13 @@
 <h2 id="why-all-of-this-">Why all of this ?</h2>
 <p>The goal was to track client navigation and send Google Analytics data through all the order process and until he successfully paid (to track conversion).</p>
 <p>'Cause of 4escape iframe’s behavior, referrer was lost when user goes through the iframe and if <strong>tag manager</strong> proceeds as expected in the <a href="https://4escape.groovehq.com/knowledge_base/topics/configurer-google-tag-manager-pour-analytics-adwords-et-facebook-pixel">4escape documentation</a>.</p>
-<p>So we had to work with <a href="https://developer.mozilla.org/fr/docs/Web/API/Window/postMessage">postMessage</a> method to send data <strong>from</strong> the iframe <strong>to</strong> the continuum reservation’s page. In this way we can’t loose referrer.</p>
+<p>So we had to work with <a href="1">postMessage</a> method to send data <strong>from</strong> the iframe <strong>to</strong> the continuum reservation’s page. In this way we can’t loose referrer.</p>
 <p>To make all this stuff working, <a href="https://datarunsdeep.com.au/blog/how-track-iframes-google-tag-manager">this post</a> inspired me.</p>
+<pre class=" language-sequence"><code class="prism  language-sequence">Andrew-&gt;China: Says Hello
+Note right of China: China thinks\nabout it
+China--&gt;Andrew: How are you?
+Andrew-&gt;&gt;China: I am good thanks!
+</code></pre>
 <h2 id="new-triggers">New triggers</h2>
 <p>Complexity here was to create some <strong>triggers</strong> which divide:</p>
 <ul>
@@ -45,11 +50,11 @@ What is <strong>not a problem</strong> here: referrer is not lost when user goes
 <tbody>
 <tr>
 <td align="center"><em>IFRAME - Html - PostMessage - Send</em></td>
-<td>Print JS script which sends the custom event <code>custom.postMessage.page</code> to the parent thanks to the <strong>famous</strong> <a href="https://developer.mozilla.org/fr/docs/Web/API/Window/postMessage">postMessage</a>  method.</td>
+<td>Print JS script which sends the custom event <code>custom.postMessage.page</code> to the parent thanks to the <strong>famous</strong> <a href="1">postMessage</a>  method.</td>
 </tr>
 <tr>
 <td align="center"><em>IFRAME - Html - PostMessage - Receive</em></td>
-<td>Print JS script which retrieve the message from  the <a href="https://developer.mozilla.org/fr/docs/Web/API/Window/postMessage">postMessage</a>  method and push data to the <code>dataLayer</code>. That’s what creates the <code>custom.postMessage.page</code> event.</td>
+<td>Print JS script which retrieve the message from  the <a href="1">postMessage</a>  method and push data to the <code>dataLayer</code>. That’s what creates the <code>custom.postMessage.page</code> event.</td>
 </tr>
 <tr>
 <td align="center"><em>GA - Pageview - Virtual - postMessage</em></td>
@@ -61,7 +66,7 @@ What is <strong>not a problem</strong> here: referrer is not lost when user goes
 </tr>
 <tr>
 <td align="center"><em>Google Analytics - Pageview - Not Iframe</em></td>
-<td>Create a GA PageView hit for all pages (<strong>4escape</strong> and <strong>Continuum</strong> pages included) which are not calls in Iframe</td>
+<td>Create a GA PageView hit for all pages (<strong>4escape</strong> and <strong>Continuum</strong> pages included) which are not called in Iframe</td>
 </tr>
 </tbody>
 </table><blockquote>
