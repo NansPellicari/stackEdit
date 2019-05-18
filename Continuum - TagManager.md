@@ -1,4 +1,3 @@
-qsdqsdqsd patata
 # Continuum - Tag Manager
 
 ## Why all of this ?
@@ -90,7 +89,7 @@ Maybe **4escape** can do something for it ?
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcblx0bWVybWFpZD
-pcbiAgICBcdGVuYWJsZWQ6IHRydWVcbiIsImhpc3RvcnkiOlst
-MTkxNDI0NTE0OCw2ODY2NTIyODMsMTY4OTE5NDA0NywtMTg3Mz
-Q2MTM5NV19
+pcbiAgICBcdGVuYWJsZWQ6IHRydWVcbiIsImhpc3RvcnkiOlsx
+Njg5MTk0MDQ3LDY4NjY1MjI4MywxNjg5MTk0MDQ3LC0xODczND
+YxMzk1XX0=
 -->
