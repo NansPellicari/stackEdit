@@ -1,10 +1,3 @@
----
-extensions:
-	mermaid: {
-	    enabled: true
-	}
-
----
 
 <h1 id="continuum---tag-manager">Continuum - Tag Manager</h1>
 <h2 id="why-all-of-this-">Why all of this ?</h2>
@@ -95,3 +88,8 @@ Maybe <strong>4escape</strong> can do something for it ?</p>
 <p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
 </blockquote>
 
+<!--stackedit_data:
+eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcblx0bWVybWFpZD
+pcbiAgICBcdGVuYWJsZWQ6IHRydWVcbiIsImhpc3RvcnkiOlsx
+Mzk0OTc5NTI2XX0=
+-->
