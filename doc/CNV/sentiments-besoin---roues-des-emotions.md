@@ -24,9 +24,9 @@
 | Mauvaise humeur | Bonne humeur | Alarmé | Mélancolique |
 |  |  |  |  |
 
-| thème du besoin | besoin |
+| Repères - Créativité | Pouvoir - Concrétisation | Relation aux autres - Partage | Communication | Réalisation | Sens | Sécurité - survie | Rpères  |
 | -- | -- |
 |  |  |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjcwOTY1NDBdfQ==
+eyJoaXN0b3J5IjpbMjAyNzg4MzE3NV19
 -->
