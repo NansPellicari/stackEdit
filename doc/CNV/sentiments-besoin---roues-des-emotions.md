@@ -19,13 +19,12 @@
 | J'en ai les larmes au yeux |
 | Je me sens comme un lion en cage |
 
-|  émotion | sentiments  |
-| -- | -- |
-||
+|  Colère | Joie  | Peur | Tristesse |
+||||
 
 | thème du besoin | besoin |
 | -- | -- |
 ||
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTIxOTg1NjFdfQ==
+eyJoaXN0b3J5IjpbLTYzNDgxODAyXX0=
 -->
