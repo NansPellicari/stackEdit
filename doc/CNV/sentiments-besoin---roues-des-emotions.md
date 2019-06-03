@@ -14,12 +14,18 @@
 | J'ai un coup au coeur |
 | J'ai les jambes molles |
 | Je me sens lourd |
+| Je me sens léger |
+| J'en ai le souffle coupé |
+| J'en ai les larmes au yeux |
+| Je me sens comme un lion en cage |
 
+|  émotion | sentiments  |
+| -- | -- |
+||
 
- émotion | sentiments  | thème du besoin | besoin |
-| -- | -- | -- | -- |
-||||
-||||||
+| thème du besoin | besoin |
+| -- | -- |
+||
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyOTM0NjEwN119
+eyJoaXN0b3J5IjpbLTE3NTIxOTg1NjFdfQ==
 -->
