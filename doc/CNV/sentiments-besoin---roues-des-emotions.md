@@ -1,5 +1,7 @@
 # la roue des émotions
 
+## Sensations physiques ressentie
+ 
 | Sensations physiques |
 | :-- |
 | Je suis tendu |
@@ -19,14 +21,18 @@
 | J'en ai les larmes au yeux |
 | Je me sens comme un lion en cage |
 
+## Relation émotion-sentiment 
+
 |  Colère | Joie  | Peur | Tristesse |
 | -- | -- | -- | -- |
 | Mauvaise humeur | Bonne humeur | Alarmé | Mélancolique |
 |  |  |  |  |
 
+## Théme Besoin
+
 | Repères - créativité | Pouvoir - Concrétisation | Relation aux autres - Partage | Communication | Réalisation | Sens | Sécurité - survie |
 | -- | -- | -- | -- | -- | -- | -- |
-| apprentissage | assurance | amitié |  |  |  |  |
+| apprentissage | assurance | amitié | collaboration | acceptation | conscience | abri |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjgzNjc4NjVdfQ==
+eyJoaXN0b3J5IjpbLTEyMTI5NDU2NjldfQ==
 -->
