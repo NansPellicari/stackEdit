@@ -20,11 +20,13 @@
 | Je me sens comme un lion en cage |
 
 |  Colère | Joie  | Peur | Tristesse |
-||||
+| -- | -- | -- | -- |
+| Mauvaise humeur | Bonne humeur | Alarmé | Mélancolique |
+|  |  |  |  |
 
 | thème du besoin | besoin |
 | -- | -- |
-||
+|  |  |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNDgxODAyXX0=
+eyJoaXN0b3J5IjpbLTEzMjEzNzI0XX0=
 -->
