@@ -24,9 +24,9 @@
 | Mauvaise humeur | Bonne humeur | Alarmé | Mélancolique |
 |  |  |  |  |
 
-| Repères - Créativité | Pouvoir - Concrétisation | Relation aux autres - Partage | Communication | Réalisation | Sens | Sécurité - survie | Rpères  |
-| -- | -- |
-|  |  |
+| Repères - créativité | Pouvoir - Concrétisation | Relation aux autres - Partage | Communication | Réalisation | Sens | Sécurité - survie |
+| -- | -- | -- | -- | -- | -- | -- |
+| apprentissage | assurance | amitié |  |  |  |  |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNzg4MzE3NV19
+eyJoaXN0b3J5IjpbLTE0NjgzNjc4NjVdfQ==
 -->
