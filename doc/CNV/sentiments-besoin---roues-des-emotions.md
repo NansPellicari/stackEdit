@@ -1,7 +1,7 @@
 # la roue des émotions
 
-| sensations physiques |
-| -- |
+| Sensations physiques |
+| :-- |
 | Je suis tendu |
 | J'ai des papillons dans le ventre |
 | J'ai des ailes dans le dos |
@@ -28,5 +28,5 @@
 | -- | -- |
 |  |  |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjEzNzI0XX0=
+eyJoaXN0b3J5IjpbLTE0MjcwOTY1NDBdfQ==
 -->
