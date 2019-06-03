@@ -25,7 +25,7 @@
 
 |  Colère | Joie  | Peur | Tristesse |
 | -- | -- | -- | -- |
-| Mauvaise humeur | Bonne humeur | Alarmé | Mélancolique |
+| mauvaise humeur | bonne humeur | alarmé | mélancolique |
 |  |  |  |  |
 
 ## Thèmes des besoins
@@ -34,5 +34,5 @@
 | -- | -- | -- | -- | -- | -- | -- |
 | apprentissage | assurance | amitié | collaboration | acceptation | conscience | abri |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMjYzNzI1OF19
+eyJoaXN0b3J5IjpbLTk1NTU2Njk2NiwyMDEyNjM3MjU4XX0=
 -->
