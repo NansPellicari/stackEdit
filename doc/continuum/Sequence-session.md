@@ -35,15 +35,16 @@ User->>+Payment Gateway[1]: Choose and pay
 alt Payment Success
 	Payment Gateway[1]->>-4Escape: Got to page "checkout/thankyou"
 	activate 4Escape
-	4Escape->>GA: Hit page (current URL) + GTM Event order:success
+	4Escape-->>GA: Hit page (current URL) + GTM Event order:success
+	4Escape-->>User: Show page
 	deactivate 4Escape
 end
 ```
 
 Notes:
 * [1] SystemPay via Caisse d'épargne
-* [2] This is here we've lost user session for GA and referral ?
+* [2] This is where we've lost user session and referral for GA ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTM5MjMxNjIsMTkyNTMyNjIzOCw5Nj
+eyJoaXN0b3J5IjpbLTExNjAwODMzMjYsMTkyNTMyNjIzOCw5Nj
 I5OTkxNTEsLTE5NTk2MDI4MzJdfQ==
 -->
