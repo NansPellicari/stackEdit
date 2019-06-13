@@ -5,11 +5,11 @@ activate Continuum
 Continuum-xGA: Hit page
 Continuum->>4Escape (Iframe): load Iframe - page "Date choice"
 activate 4Escape (Iframe)
-4Escape (Iframe)-->>Continuum: says to parent "I'm loaded" (PostMessage)
+4Escape (Iframe)--xContinuum: says to parent "I'm loaded" (PostMessage)
 deactivate 4Escape (Iframe)
-Continuum-->>GA: Hit page (iframe page URL)
-Continuum-->>User+: show dates table
-User->>Continuum: Choose date
+Continuum-xGA: Hit page (iframe page URL)
+Continuum-->>+User: show dates table
+User->>-Continuum: Choose date
 deactivate Continuum
 4Escape (Iframe)->>Payment Gateway[1]: 
 alt Payment Success
@@ -27,5 +27,5 @@ Notes:
 * [3] wait for `custom.postMessage.page` retrieve data from `dataLayer`
 * [4] wait until `window.OrderId` is defined  and send `custom.waitForVar.OrderId` event
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0OTg1NTE0NSwtMTk1OTYwMjgzMl19
+eyJoaXN0b3J5IjpbOTYyOTk5MTUxLC0xOTU5NjAyODMyXX0=
 -->
