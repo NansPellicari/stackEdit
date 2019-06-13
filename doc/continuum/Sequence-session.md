@@ -22,6 +22,7 @@ deactivate Continuum
 
 User->>+4Escape (Iframe): Filled data and confirm order
 4Escape (Iframe)->>-Payment Gateway[1]: Redirect to payment gateway 
+Note over Payment Gateway[1]: see note [2]
 
 
 
@@ -38,8 +39,8 @@ end
 
 Notes:
 * [1] SystemPay via Caisse d'épargne
-* [2] This is here we've lost user session for GA and referral 
+* [2] This is here we've lost user session for GA and referral ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcyMDk5OTM4LDE5MjUzMjYyMzgsOTYyOT
-k5MTUxLC0xOTU5NjAyODMyXX0=
+eyJoaXN0b3J5IjpbLTQyOTM3NDkwMSwxOTI1MzI2MjM4LDk2Mj
+k5OTE1MSwtMTk1OTYwMjgzMl19
 -->
