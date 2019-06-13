@@ -1,7 +1,8 @@
 ```mermaid
 sequenceDiagram
 Continuum->>GA: Hit page (Reservation.php) 
-Continuum->>4Escape (Iframe): load Iframe 
+Continuum->>4Escape (Iframe): load Iframe - page "Date choice"
+activate 4Escape (Iframe)
 4Escape (Iframe)-->>Continuum: says to parent "I'm loaded" (PostMessage)
 activate Continuum
 Note over 4Escape (Iframe): see note  [2]
@@ -24,5 +25,5 @@ Notes:
 * [3] wait for `custom.postMessage.page` retrieve data from `dataLayer`
 * [4] wait until `window.OrderId` is defined  and send `custom.waitForVar.OrderId` event
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODY2NTMyNjJdfQ==
+eyJoaXN0b3J5IjpbMTI1MDMzNDA4MF19
 -->
