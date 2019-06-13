@@ -22,18 +22,19 @@ deactivate Continuum
 
 User->>4Escape (Iframe): Filled data and confirm order
 activate 4Escape (Iframe)
-4Escape (Iframe)->>+Payment Gateway[1]: Redirect to payment gateway 
+4Escape (Iframe)->>Payment Gateway[1]: Redirect to payment gateway 
 deactivate 4Escape (Iframe)
+activate Payment Gateway[1]
 Note over Payment Gateway[1]: see note [2]
-Payment Gateway[1]-->>-User: Show payment method
-
+Payment Gateway[1]-->>User: Show payment method
+activate Payment Gateway[1]
 User->>+Payment Gateway[1]: Choose and pay
 
 
 
 
 alt Payment Success
-	Payment Gateway[1]->>-4Escape: Got to page "checkout/thankyou"
+	Payment Gateway[1]->>-4Escape: Redirect to page "checkout/thankyou"
 	activate 4Escape
 	4Escape-->>GA: Hit page (current URL) + GTM Event order:success
 	4Escape-->>User: Show page
@@ -45,6 +46,6 @@ Notes:
 * [1] SystemPay via Caisse d'épargne
 * [2] This is where we've lost user session and referral for GA ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjAwODMzMjYsMTkyNTMyNjIzOCw5Nj
-I5OTkxNTEsLTE5NTk2MDI4MzJdfQ==
+eyJoaXN0b3J5IjpbLTEyMjU1MjA5NDIsLTExNjAwODMzMjYsMT
+kyNTMyNjIzOCw5NjI5OTkxNTEsLTE5NTk2MDI4MzJdfQ==
 -->
