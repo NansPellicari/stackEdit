@@ -27,14 +27,14 @@ deactivate 4Escape (Iframe)
 Note over Payment Gateway[1]: see note [2]
 Payment Gateway[1]-->>-User: Show payment method
 
+User->>+Payment Gateway[1]: Choose and pay
 
 
 
 
 alt Payment Success
-	4Escape (Iframe)->>4Escape: Got to page "checkout/thankyou"
+	Payment Gateway[1]->>-4Escape: Got to page "checkout/thankyou"
 	activate 4Escape
-	Note over 4Escape: see note [4]
 	4Escape->>GA: Hit page (current URL) + GTM Event order:success
 	deactivate 4Escape
 end
@@ -44,6 +44,6 @@ Notes:
 * [1] SystemPay via Caisse d'épargne
 * [2] This is here we've lost user session for GA and referral ?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MjUzNDg4OCwxOTI1MzI2MjM4LDk2Mj
-k5OTE1MSwtMTk1OTYwMjgzMl19
+eyJoaXN0b3J5IjpbLTE2OTM5MjMxNjIsMTkyNTMyNjIzOCw5Nj
+I5OTkxNTEsLTE5NTk2MDI4MzJdfQ==
 -->
