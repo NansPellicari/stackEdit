@@ -10,7 +10,9 @@ deactivate 4Escape (Iframe)
 Continuum->>GA: Hit page (iframe page URL)
 Continuum-->>User: show dates table
 activate User
-User->>Continuum: Choose date & confirm 
+User->>Continuum: Choose date 
+Continuum->>+4Escape (Iframe): Confirm date
+Continuum->>+4Escape (Iframe): Confirm date
 deactivate User
 4Escape (Iframe)->>Payment Gateway[1]: 
 deactivate Continuum
@@ -29,6 +31,6 @@ Notes:
 * [3] wait for `custom.postMessage.page` retrieve data from `dataLayer`
 * [4] wait until `window.OrderId` is defined  and send `custom.waitForVar.OrderId` event
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMjczNzc5Niw5NjI5OTkxNTEsLTE5NT
+eyJoaXN0b3J5IjpbMTkyNTMyNjIzOCw5NjI5OTkxNTEsLTE5NT
 k2MDI4MzJdfQ==
 -->
