@@ -20,10 +20,9 @@ deactivate Continuum
 4Escape (Iframe)-->>-User: show user data form and order details
 
 
-User->>+Continuum: Filled data and confirm order
+User->>+4Escape (Iframe): Filled data and confirm order
+4Escape (Iframe)->>-Payment Gateway[1]: Redirect to payment gateway 
 
-
-4Escape (Iframe)->>Payment Gateway[1]: 
 
 
 
@@ -39,10 +38,8 @@ end
 
 Notes:
 * [1] SystemPay via Caisse d'épargne
-* [2] send `custom.postMessage.page with` URL data
-* [3] wait for `custom.postMessage.page` retrieve data from `dataLayer`
-* [4] wait until `window.OrderId` is defined  and send `custom.waitForVar.OrderId` event
+* [2] This is here we've lost user session for GA and referral 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMTQzMDc1NCwxOTI1MzI2MjM4LDk2Mj
-k5OTE1MSwtMTk1OTYwMjgzMl19
+eyJoaXN0b3J5IjpbNzcyMDk5OTM4LDE5MjUzMjYyMzgsOTYyOT
+k5MTUxLC0xOTU5NjAyODMyXX0=
 -->
