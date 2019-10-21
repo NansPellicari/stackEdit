@@ -29,31 +29,13 @@ activate 4Escape
 deactivate 4Escape
 ```
 
-  
-
-Notes:
-
-* (1) send `custom.postMessage.page with` URL data
-
-* (2) wait for `custom.postMessage.page` retrieve data from `dataLayer`
-
-* (3) wait until `window.OrderId` is defined and send `custom.waitForVar.OrderId` event
-
-  
-
 ## New triggers
-
-  
 
 Complexity here was to create some **triggers** which divide:
 
 - iframe's URLs from **4escape**
-
 -  **4escape's** URLs not in iframe
-
 -  **Continuum's** URLs.
-
-  
 
 ### Why only Iframe's URLs ?
 
@@ -133,5 +115,5 @@ Maybe **4escape** can do something for it ?
 
 [1]:https://developer.mozilla.org/fr/docs/Web/API/Window/postMessage
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA0MzQ3MTU2XX0=
+eyJoaXN0b3J5IjpbLTIwNzMzNjIzOTcsNDA0MzQ3MTU2XX0=
 -->
