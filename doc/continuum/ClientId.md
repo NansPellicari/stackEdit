@@ -21,7 +21,8 @@ Continuum->>GA: Hit page (Reservation.php)
 
 Continuum->>4Escape (Iframe): load Iframe
 4Escape (Iframe)->>Continuum: Hey! I'm loaded
-Continuum->>4Escape (Iframe): PostMessage : Ok 
+Continuum->>4Escape (Iframe): PostMessage : Ok this is my GA/ClientId
+
 loop Navigating In Iframe
 
 Note over 4Escape (Iframe): Page is loaded
@@ -160,5 +161,5 @@ Maybe **4escape** can do something for it ?
 
 [1]:https://developer.mozilla.org/fr/docs/Web/API/Window/postMessage
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NzUxMjkzXX0=
+eyJoaXN0b3J5IjpbODM0NjE0OTkyXX0=
 -->
