@@ -22,9 +22,12 @@ Continuum->>GA: Hit page (Reservation.php)
 Continuum->>4Escape: load Iframe
 activate 4Escape
 4Escape->>Continuum: Hey! I'm loaded
+deactivate 4Escape
 activate Continuum
 Continuum->>4Escape: PostMessage : Ok this is my GA/ClientId
 deactivate Continuum
+4Escape->>4Escape: Ok nice I push it in my GTagManager DataLayer !
+
 loop Navigating In Iframe
 
 Note over 4Escape (Iframe): Page is loaded
@@ -148,5 +151,5 @@ Maybe **4escape** can do something for it ?
 
 [1]:https://developer.mozilla.org/fr/docs/Web/API/Window/postMessage
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA3MTQyMzcxXX0=
+eyJoaXN0b3J5IjpbMTUzMDAxNjgzNV19
 -->
