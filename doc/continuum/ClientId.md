@@ -26,7 +26,10 @@ deactivate 4Escape
 activate Continuum
 Continuum->>4Escape: PostMessage : Ok this is my GA/ClientId
 deactivate Continuum
-4Escape->>4Escape: Ok nice I push it in my GTagManager DataLayer !
+activate 4Escape
+4Escape->>4Escape: Ok nice I push it in my GTagManager DataLayer via the event "custom.waitForVars.clientId"
+4Escape->>4Escape: Now it is pushed, I cans
+deactivate 4Escape
 
 loop Navigating In Iframe
 
@@ -151,5 +154,5 @@ Maybe **4escape** can do something for it ?
 
 [1]:https://developer.mozilla.org/fr/docs/Web/API/Window/postMessage
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMDAxNjgzNV19
+eyJoaXN0b3J5IjpbLTg2NjM2NzQzNF19
 -->
