@@ -20,7 +20,8 @@ sequenceDiagram
 Continuum->>GA: Hit page (Reservation.php)
 
 Continuum->>4Escape (Iframe): load Iframe
-
+4Escape (Iframe)->>Continuum: Hey! I'm loaded
+Continuum->>4Escape (Iframe): PostMessage : Ok 
 loop Navigating In Iframe
 
 Note over 4Escape (Iframe): Page is loaded
@@ -159,5 +160,5 @@ Maybe **4escape** can do something for it ?
 
 [1]:https://developer.mozilla.org/fr/docs/Web/API/Window/postMessage
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMTY3OTMxMV19
+eyJoaXN0b3J5IjpbLTk1NzUxMjkzXX0=
 -->
