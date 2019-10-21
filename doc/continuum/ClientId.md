@@ -19,10 +19,12 @@ sequenceDiagram
 
 Continuum->>GA: Hit page (Reservation.php)
 
-Continuum->>4Escape (Iframe): load Iframe
-4Escape (Iframe)->>Continuum: Hey! I'm loaded
-Continuum->>4Escape (Iframe): PostMessage : Ok this is my GA/ClientId
-
+Continuum->>4Escape: load Iframe
+activate 4Escape
+4Escape->>Continuum: Hey! I'm loaded
+activate Continuum
+Continuum->>4Escape: PostMessage : Ok this is my GA/ClientId
+deactivate Continuum
 loop Navigating In Iframe
 
 Note over 4Escape (Iframe): Page is loaded
@@ -40,21 +42,6 @@ Continuum->>GA: Hit page (iframe page URL)
 deactivate Continuum
 
 end
-
-alt Payment Success
-
-4Escape (Iframe)->>4Escape: Got to page "checkout/thankyou"
-
-activate 4Escape
-
-Note over 4Escape: see note (3)
-
-4Escape->>GA: Hit page (current URL) + GTM Event order:success
-
-deactivate 4Escape
-
-end
-
 ```
 
   
@@ -161,5 +148,5 @@ Maybe **4escape** can do something for it ?
 
 [1]:https://developer.mozilla.org/fr/docs/Web/API/Window/postMessage
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM0NjE0OTkyXX0=
+eyJoaXN0b3J5IjpbNDA3MTQyMzcxXX0=
 -->
