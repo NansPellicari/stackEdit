@@ -14,11 +14,8 @@ To make all this stuff working, [this post](https://www.bounteous.com/insights/2
 
  
 ```mermaid
-
 sequenceDiagram
-
 Continuum->>GA: Hit page (Reservation.php)
-
 Continuum->>4Escape: load Iframe
 activate 4Escape
 4Escape->>Continuum: Hey! I'm loaded
@@ -136,5 +133,5 @@ Maybe **4escape** can do something for it ?
 
 [1]:https://developer.mozilla.org/fr/docs/Web/API/Window/postMessage
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MTMzNjA5MF19
+eyJoaXN0b3J5IjpbNDA0MzQ3MTU2XX0=
 -->
