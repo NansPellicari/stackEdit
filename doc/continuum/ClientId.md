@@ -28,26 +28,8 @@ Continuum->>4Escape: PostMessage : Ok this is my GA/ClientId
 deactivate Continuum
 activate 4Escape
 4Escape->>4Escape: Ok nice I push it in my GTagManager DataLayer via the event "custom.waitForVars.clientId"
-4Escape->>4Escape: Now it is pushed, I cans
+4Escape->>GA: Now it is pushed, I can send a GA pageView using this DataLayer's var
 deactivate 4Escape
-
-loop Navigating In Iframe
-
-Note over 4Escape (Iframe): Page is loaded
-
-4Escape (Iframe)-->>Continuum: says to parent "I'm loaded" (PostMessage)
-
-activate Continuum
-
-Note over 4Escape (Iframe): see note (1)
-
-Note over Continuum: see note (2)
-
-Continuum->>GA: Hit page (iframe page URL)
-
-deactivate Continuum
-
-end
 ```
 
   
@@ -154,5 +136,5 @@ Maybe **4escape** can do something for it ?
 
 [1]:https://developer.mozilla.org/fr/docs/Web/API/Window/postMessage
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NjM2NzQzNF19
+eyJoaXN0b3J5IjpbLTI4MTMzNjA5MF19
 -->
