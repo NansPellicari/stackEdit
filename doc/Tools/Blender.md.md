@@ -13,20 +13,13 @@
 | **sculpting>edit** | ctrl+D | toggle **dyntop** |
 | **sculpting>edit** | shift+D | increase **dyntop** resolution |
 
-  
-  
-
 ## Usefull tools
 
-  
-
 | view | what it does | where |
-
 | :--: | -- | -- |
-
 | **edit** | symmetrize | top panel > Mesh > Symmetrize |
-
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNjUxMzA4N119
+eyJoaXN0b3J5IjpbMTQyODYyMDU4MV19
 -->
