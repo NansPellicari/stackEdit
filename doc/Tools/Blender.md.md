@@ -4,8 +4,9 @@
 
  | view | keybindings | what it does |
 | -- | :--: | -- |
-| **scene** | shift + S | Reposition cursor |
-| **scene** | shift + A | Add |
+| **object** | shift + S | Reposition cursor |
+| **object** | shift + A | Add |
+| **object** | ctrl + A | Add |
 | **every** | N | Toggle right panel display |
 | **every** | T | Toggle left panel display |
 | **edit** | ctrl + R | Loop cut |
@@ -21,5 +22,5 @@
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyODYyMDU4MV19
+eyJoaXN0b3J5IjpbLTE2Mjg0ODI3NjIsMTQyODYyMDU4MV19
 -->
