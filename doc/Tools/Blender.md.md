@@ -7,12 +7,14 @@
 | **object** | shift + S | Reposition cursor |
 | **object** | shift + A | Add |
 | **object** | ctrl + A | Apply (rot, pos, scale) |
+| **object** | S+ z*2 | ??? |
 | **every** | N | Toggle right panel display |
 | **every** | T | Toggle left panel display |
 | **edit** | ctrl + R | Loop cut |
 | **edit** | f9 | Show tool panel (eg. Symmetrize panel) |
 | **sculpting>edit** | ctrl+D | toggle **dyntop** |
 | **sculpting>edit** | shift+D | increase **dyntop** resolution |
+
 
 ## Usefull tools
 
@@ -22,5 +24,6 @@
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNjAxNTMxLDE0Mjg2MjA1ODFdfQ==
+eyJoaXN0b3J5IjpbODk0MTI5MTg1LC0yMjYwMTUzMSwxNDI4Nj
+IwNTgxXX0=
 -->
