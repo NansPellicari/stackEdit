@@ -6,7 +6,7 @@
 | -- | :--: | -- |
 | **object** | shift + S | Reposition cursor |
 | **object** | shift + A | Add |
-| **object** | ctrl + A | Add |
+| **object** | ctrl + A | Apply (rot, pos, scale) |
 | **every** | N | Toggle right panel display |
 | **every** | T | Toggle left panel display |
 | **edit** | ctrl + R | Loop cut |
@@ -22,5 +22,5 @@
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mjg0ODI3NjIsMTQyODYyMDU4MV19
+eyJoaXN0b3J5IjpbLTIyNjAxNTMxLDE0Mjg2MjA1ODFdfQ==
 -->
