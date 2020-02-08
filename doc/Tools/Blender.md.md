@@ -16,6 +16,8 @@
 | **sculpting>edit** | shift+D | increase **dyntop** resolution |
 
 
+some from here : [https://en.wikibooks.org/wiki/Blender_3D:_HotKeys/3D_View/Sculpt_Mode](https://en.wikibooks.org/wiki/Blender_3D:_HotKeys/3D_View/Sculpt_Mode)
+
 ## Usefull tools
 
 | view | what it does | where |
@@ -24,6 +26,6 @@
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUxMjEwODYzLC0yMjYwMTUzMSwxNDI4Nj
-IwNTgxXX0=
+eyJoaXN0b3J5IjpbLTI4OTY1ODIxOCw5NTEyMTA4NjMsLTIyNj
+AxNTMxLDE0Mjg2MjA1ODFdfQ==
 -->
