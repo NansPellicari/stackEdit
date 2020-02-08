@@ -17,8 +17,8 @@
 | **sculpting>edit** | shift+D | increase **dyntop** resolution |
 | **sculpting>edit** | shift+space | increase **dyntop** resolution |
 
-
-
+To create the toggle subtract/add brushes mode:
+[https://blender.stackexchange.com/questions/15113/is-there-a-shortcut-to-switch-between-add-and-subtract-brushes-in-sculpt-mode?noredirect=1&lq=1](https://blender.stackexchange.com/questions/15113/is-there-a-shortcut-to-switch-between-add-and-subtract-brushes-in-sculpt-mode?noredirect=1&lq=1)
 
 some from here : [https://en.wikibooks.org/wiki/Blender_3D:_HotKeys/3D_View/Sculpt_Mode](https://en.wikibooks.org/wiki/Blender_3D:_HotKeys/3D_View/Sculpt_Mode)
 
@@ -30,7 +30,7 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:_HotKeys/3D_View/Scul
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NDM5MTg5NSwtMjg4NDE5ODksLTI4OT
-Y1ODIxOCw5NTEyMTA4NjMsLTIyNjAxNTMxLDE0Mjg2MjA1ODFd
-fQ==
+eyJoaXN0b3J5IjpbLTczMzM2MTQ1NywyMDQ0MzkxODk1LC0yOD
+g0MTk4OSwtMjg5NjU4MjE4LDk1MTIxMDg2MywtMjI2MDE1MzEs
+MTQyODYyMDU4MV19
 -->
