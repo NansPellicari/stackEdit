@@ -11,6 +11,7 @@
 | **object** | S + z*2 | use local Z for scale |
 | **every** | N | Toggle right panel display |
 | **every** | T | Toggle left panel display |
+| **every** | alt+Z | Toggle x-ray |
 | **edit** | ctrl+R | Loop cut |
 | **edit** | f9 | Show tool panel (eg. Symmetrize panel) |
 | **sculpting>edit** | ctrl+D | toggle **dyntop** |
@@ -31,5 +32,5 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:_HotKeys/3D_View/Scul
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzODMxNTQxMF19
+eyJoaXN0b3J5IjpbMTMyNTg4MTU3MF19
 -->
