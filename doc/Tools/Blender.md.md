@@ -19,6 +19,7 @@
 
 
 
+
 some from here : [https://en.wikibooks.org/wiki/Blender_3D:_HotKeys/3D_View/Sculpt_Mode](https://en.wikibooks.org/wiki/Blender_3D:_HotKeys/3D_View/Sculpt_Mode)
 
 ## Usefull tools
@@ -29,7 +30,7 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:_HotKeys/3D_View/Scul
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTk2ODY5OTksLTI4ODQxOTg5LC0yOD
-k2NTgyMTgsOTUxMjEwODYzLC0yMjYwMTUzMSwxNDI4NjIwNTgx
-XX0=
+eyJoaXN0b3J5IjpbMjA0NDM5MTg5NSwtMjg4NDE5ODksLTI4OT
+Y1ODIxOCw5NTEyMTA4NjMsLTIyNjAxNTMxLDE0Mjg2MjA1ODFd
+fQ==
 -->
