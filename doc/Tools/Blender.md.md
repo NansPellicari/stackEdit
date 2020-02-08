@@ -4,17 +4,18 @@
 
  | view | keybindings | what it does |
 | -- | :--: | -- |
-| **object** | shift + S | Reposition cursor |
-| **object** | shift + A | Add |
-| **object** | ctrl + A | Apply (rot, pos, scale) |
-| **object** | ctrl + space | extend in full screen |
+| **object** | shift+S | Reposition cursor |
+| **object** | shift+A | Add |
+| **object** | ctrl+A | Apply (rot, pos, scale) |
+| **object** | ctrl+space | extend in full screen |
 | **object** | S + z*2 | use local Z for scale |
 | **every** | N | Toggle right panel display |
 | **every** | T | Toggle left panel display |
-| **edit** | ctrl + R | Loop cut |
+| **edit** | ctrl+R | Loop cut |
 | **edit** | f9 | Show tool panel (eg. Symmetrize panel) |
 | **sculpting>edit** | ctrl+D | toggle **dyntop** |
 | **sculpting>edit** | shift+D | increase **dyntop** resolution |
+| **sculpting>edit** | shift+space | increase **dyntop** resolution |
 
 
 some from here : [https://en.wikibooks.org/wiki/Blender_3D:_HotKeys/3D_View/Sculpt_Mode](https://en.wikibooks.org/wiki/Blender_3D:_HotKeys/3D_View/Sculpt_Mode)
@@ -27,6 +28,6 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:_HotKeys/3D_View/Scul
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0ODYwNTYwOSwtMjg5NjU4MjE4LDk1MT
-IxMDg2MywtMjI2MDE1MzEsMTQyODYyMDU4MV19
+eyJoaXN0b3J5IjpbLTI4ODQxOTg5LC0yODk2NTgyMTgsOTUxMj
+EwODYzLC0yMjYwMTUzMSwxNDI4NjIwNTgxXX0=
 -->
