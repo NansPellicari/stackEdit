@@ -7,7 +7,8 @@
 | **object** | shift + S | Reposition cursor |
 | **object** | shift + A | Add |
 | **object** | ctrl + A | Apply (rot, pos, scale) |
-| **object** | S + z*2 | ??? |
+| **object** | ctrl + space | extend in full screen |
+| **object** | S + z*2 | use local Z for scale |
 | **every** | N | Toggle right panel display |
 | **every** | T | Toggle left panel display |
 | **edit** | ctrl + R | Loop cut |
@@ -26,6 +27,6 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:_HotKeys/3D_View/Scul
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4OTY1ODIxOCw5NTEyMTA4NjMsLTIyNj
-AxNTMxLDE0Mjg2MjA1ODFdfQ==
+eyJoaXN0b3J5IjpbLTg0ODYwNTYwOSwtMjg5NjU4MjE4LDk1MT
+IxMDg2MywtMjI2MDE1MzEsMTQyODYyMDU4MV19
 -->
