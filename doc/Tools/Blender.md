@@ -15,7 +15,7 @@
 | **every** | alt+Z | Toggle x-ray |
 | **edit** | ctrl+R | Loop cut |
 | **edit** | f9 | Show tool panel (eg. Symmetrize panel) |
-| **edit** | alt+LMB | select narrow vertices in the same  |
+| **edit** | alt+LMB | select loop  |
 | **sculpting>edit** | ctrl+D | toggle **dyntop** |
 | **sculpting>edit** | shift+D | increase **dyntop** resolution |
 | **sculpting>edit** | shift+space | increase **dyntop** resolution |
@@ -34,6 +34,6 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:_HotKeys/3D_View/Scul
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjY5MDA2MzIsLTE5NzAxMzc4ODksMT
-MyNTg4MTU3MF19
+eyJoaXN0b3J5IjpbODA0Mjc1ODg4LC0xOTcwMTM3ODg5LDEzMj
+U4ODE1NzBdfQ==
 -->
