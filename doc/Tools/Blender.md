@@ -26,6 +26,9 @@
 | **sculpting>edit** | shift+space | increase **dyntop** resolution |
 | **sculpting>edit** | ² | brush direction menu (add\|subtract) |
 | **sculpting** | ctrl+shift+LMB | Create a mask |
+| **sculpting** | ctrl+shift+LMB | Create a mask |
+
+[https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/hide_mask.html](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/hide_mask.html)
 
 To create the toggle subtract/add brushes mode:
 [https://blender.stackexchange.com/questions/15113/is-there-a-shortcut-to-switch-between-add-and-subtract-brushes-in-sculpt-mode?noredirect=1&lq=1](https://blender.stackexchange.com/questions/15113/is-there-a-shortcut-to-switch-between-add-and-subtract-brushes-in-sculpt-mode?noredirect=1&lq=1)
@@ -40,7 +43,7 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:_HotKeys/3D_View/Scul
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODM4ODI5MzksOTIyNDk1ODk1LDE5OT
-g4NzQ4MTMsLTc3MTE4NzYzNywtNTg3NjA0NTU2LC05MDI0MDA2
-NSwtMTk3MDEzNzg4OSwxMzI1ODgxNTcwXX0=
+eyJoaXN0b3J5IjpbNzkzNTA0NTgwLC0xNTgzODgyOTM5LDkyMj
+Q5NTg5NSwxOTk4ODc0ODEzLC03NzExODc2MzcsLTU4NzYwNDU1
+NiwtOTAyNDAwNjUsLTE5NzAxMzc4ODksMTMyNTg4MTU3MF19
 -->
