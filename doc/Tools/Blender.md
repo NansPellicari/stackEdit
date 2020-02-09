@@ -19,7 +19,7 @@
 | **edit** | alt+LMB | Select loop  |
 | **edit** | hover + L/click a part + ctrl+L | Select all connected (not hidden vertices)  |
 | **edit** | P | Separate selection  |
-| **edit** | ctrl+L | To link, eg. to copy **modifier** on the last select object to the new one |
+| **edit** | ctrl+L | To link, eg. to copy **modifier** on the last select object to the olds selecte |
 | **sculpting>edit** | ctrl+D | toggle **dyntop** |
 | **sculpting>edit** | shift+D | increase **dyntop** resolution |
 | **sculpting>edit** | shift+space | increase **dyntop** resolution |
@@ -38,6 +38,7 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:_HotKeys/3D_View/Scul
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MTE4NzYzNywtNTg3NjA0NTU2LC05MD
-I0MDA2NSwtMTk3MDEzNzg4OSwxMzI1ODgxNTcwXX0=
+eyJoaXN0b3J5IjpbMTcxNjE3NDg0MiwtNzcxMTg3NjM3LC01OD
+c2MDQ1NTYsLTkwMjQwMDY1LC0xOTcwMTM3ODg5LDEzMjU4ODE1
+NzBdfQ==
 -->
