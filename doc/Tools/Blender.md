@@ -9,16 +9,16 @@
 | **object** | ctrl+A | Apply (rot, pos, scale) |
 | **object** | ctrl+space | extend in full screen |
 | **object** | S + z*2 | use local Z for scale |
-| **object** | RMB | show context menu |
+| **object** | RMB | Show context menu |
 | **object** | ctrl+J | Join selectedobject |
 | **every** | N | Toggle right panel display |
 | **every** | T | Toggle left panel display |
 | **every** | alt+Z | Toggle x-ray |
 | **edit** | ctrl+R | Loop cut |
 | **edit** | f9 | Show tool panel (eg. Symmetrize panel) |
-| **edit** | alt+LMB | select loop  |
-| **edit** | hover + L/click a part + ctrl+L | select all connected (not hidden vertices)  |
-| **edit** | P | separate selection  |
+| **edit** | alt+LMB | Select loop  |
+| **edit** | hover + L/click a part + ctrl+L | Select all connected (not hidden vertices)  |
+| **edit** | P | Separate selection  |
 | **edit** | ctrl+L | To link, eg. to copy **modifier** on the last select object to the new one |
 | **sculpting>edit** | ctrl+D | toggle **dyntop** |
 | **sculpting>edit** | shift+D | increase **dyntop** resolution |
@@ -38,6 +38,6 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:_HotKeys/3D_View/Scul
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MDc1MDI2MSwtNTg3NjA0NTU2LC05MD
+eyJoaXN0b3J5IjpbLTc3MTE4NzYzNywtNTg3NjA0NTU2LC05MD
 I0MDA2NSwtMTk3MDEzNzg4OSwxMzI1ODgxNTcwXX0=
 -->
