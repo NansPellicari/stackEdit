@@ -17,6 +17,7 @@
 | **edit** | f9 | Show tool panel (eg. Symmetrize panel) |
 | **edit** | alt+LMB | select loop  |
 | **edit** | hover + L/click a part + ctrl+L | select all connected (not hidden vertices)  |
+| **edit** | P | separate selection  |
 | **sculpting>edit** | ctrl+D | toggle **dyntop** |
 | **sculpting>edit** | shift+D | increase **dyntop** resolution |
 | **sculpting>edit** | shift+space | increase **dyntop** resolution |
@@ -35,6 +36,6 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:_HotKeys/3D_View/Scul
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwOTQwOTc1MCwtMTk3MDEzNzg4OSwxMz
-I1ODgxNTcwXX0=
+eyJoaXN0b3J5IjpbLTkwMjQwMDY1LC0xOTcwMTM3ODg5LDEzMj
+U4ODE1NzBdfQ==
 -->
