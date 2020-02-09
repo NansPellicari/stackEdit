@@ -16,6 +16,7 @@
 | **edit** | ctrl+R | Loop cut |
 | **edit** | f9 | Show tool panel (eg. Symmetrize panel) |
 | **edit** | alt+LMB | select loop  |
+| **edit** | hover + L/  | select loop  |
 | **sculpting>edit** | ctrl+D | toggle **dyntop** |
 | **sculpting>edit** | shift+D | increase **dyntop** resolution |
 | **sculpting>edit** | shift+space | increase **dyntop** resolution |
@@ -34,6 +35,6 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:_HotKeys/3D_View/Scul
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA0Mjc1ODg4LC0xOTcwMTM3ODg5LDEzMj
-U4ODE1NzBdfQ==
+eyJoaXN0b3J5IjpbMTU2NzgxNjE1NCwtMTk3MDEzNzg4OSwxMz
+I1ODgxNTcwXX0=
 -->
