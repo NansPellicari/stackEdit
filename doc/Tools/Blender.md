@@ -11,6 +11,7 @@
 | **object** | S + z*2 | use local Z for scale |
 | **object** | RMB | Show context menu |
 | **object** | ctrl+J | Join selectedobject |
+| **object** | ctrl+1-5 | Add modifier subdiviser |
 | **every** | N | Toggle right panel display |
 | **every** | T | Toggle left panel display |
 | **every** | alt+Z | Toggle x-ray |
@@ -38,7 +39,7 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:_HotKeys/3D_View/Scul
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5ODg3NDgxMywtNzcxMTg3NjM3LC01OD
-c2MDQ1NTYsLTkwMjQwMDY1LC0xOTcwMTM3ODg5LDEzMjU4ODE1
-NzBdfQ==
+eyJoaXN0b3J5IjpbOTIyNDk1ODk1LDE5OTg4NzQ4MTMsLTc3MT
+E4NzYzNywtNTg3NjA0NTU2LC05MDI0MDA2NSwtMTk3MDEzNzg4
+OSwxMzI1ODgxNTcwXX0=
 -->
