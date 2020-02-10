@@ -21,6 +21,7 @@
 | **edit** | hover + L/click a part + ctrl+L | Select all connected (not hidden vertices)  |
 | **edit** | P | Separate selection  |
 | **edit** | ctrl+L | To link, eg. to copy **modifier** on the last select object to the firsts selected |
+| **edit** | shift+N | Recalculate normal  |
 | **sculpting>edit** | ctrl+D | toggle **dyntop** |
 | **sculpting>edit** | shift+D | increase **dyntop** resolution |
 | **sculpting>edit** | shift+space | increase **dyntop** resolution |
@@ -43,7 +44,8 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:_HotKeys/3D_View/Scul
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc1Mzk0OTU3LC0xNTgzODgyOTM5LDkyMj
-Q5NTg5NSwxOTk4ODc0ODEzLC03NzExODc2MzcsLTU4NzYwNDU1
-NiwtOTAyNDAwNjUsLTE5NzAxMzc4ODksMTMyNTg4MTU3MF19
+eyJoaXN0b3J5IjpbLTIwMDMzMTg3NDQsMjc1Mzk0OTU3LC0xNT
+gzODgyOTM5LDkyMjQ5NTg5NSwxOTk4ODc0ODEzLC03NzExODc2
+MzcsLTU4NzYwNDU1NiwtOTAyNDAwNjUsLTE5NzAxMzc4ODksMT
+MyNTg4MTU3MF19
 -->
