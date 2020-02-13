@@ -23,10 +23,10 @@
 | **edit** | P > selection| Separate selection  |
 | **edit** | ctrl+L | To link, eg. to copy **modifier** on the last select object to the firsts selected |
 | **edit** | shift+N | Recalculate normal  |
-| **sculpting>edit** | ctrl+D | toggle **dyntop** |
-| **sculpting>edit** | shift+D | increase **dyntop** resolution |
-| **sculpting>edit** | shift+space | increase **dyntop** resolution |
-| **sculpting>edit** | ² | brush direction menu (add\|subtract) |
+| **sculpting** | ctrl+D | toggle **dyntop** |
+| **sculpting** | shift+D | increase **dyntop** resolution |
+| **sculpting** | shift+space | increase **dyntop** resolution |
+| **sculpting** | ² | brush direction menu (add\|subtract) |
 | **sculpting** | ctrl+shift+LMB | Create a mask [about mask](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/hide_mask.html) |
 | **sculpting** | alt+M | Clear mask |
 
@@ -45,8 +45,8 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:_HotKeys/3D_View/Scul
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzIwNTMyNjIsMjA4NTExMTgwOSwtMj
-AwMzMxODc0NCwyNzUzOTQ5NTcsLTE1ODM4ODI5MzksOTIyNDk1
-ODk1LDE5OTg4NzQ4MTMsLTc3MTE4NzYzNywtNTg3NjA0NTU2LC
-05MDI0MDA2NSwtMTk3MDEzNzg4OSwxMzI1ODgxNTcwXX0=
+eyJoaXN0b3J5IjpbLTY2MjEzOTQzNiwyMDg1MTExODA5LC0yMD
+AzMzE4NzQ0LDI3NTM5NDk1NywtMTU4Mzg4MjkzOSw5MjI0OTU4
+OTUsMTk5ODg3NDgxMywtNzcxMTg3NjM3LC01ODc2MDQ1NTYsLT
+kwMjQwMDY1LC0xOTcwMTM3ODg5LDEzMjU4ODE1NzBdfQ==
 -->
