@@ -15,7 +15,7 @@
 | **every** | N | Toggle right panel display |
 | **every** | T | Toggle left panel display |
 | **every** | alt+Z | Toggle x-ray |
-| **edit** | shift+D | Duplicate selected faces/edges/vertex |
+| **edit** | shift+D | Duplicate selected faces/edges/vertex (RMB to duplicate "in place") |
 | **edit** | ctrl+R | Loop cut |
 | **edit** | f9 | Show tool panel (eg. Symmetrize panel) |
 | **edit** | alt+LMB | Select loop  |
@@ -45,8 +45,9 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:_HotKeys/3D_View/Scul
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MjEzOTQzNiwyMDg1MTExODA5LC0yMD
-AzMzE4NzQ0LDI3NTM5NDk1NywtMTU4Mzg4MjkzOSw5MjI0OTU4
-OTUsMTk5ODg3NDgxMywtNzcxMTg3NjM3LC01ODc2MDQ1NTYsLT
-kwMjQwMDY1LC0xOTcwMTM3ODg5LDEzMjU4ODE1NzBdfQ==
+eyJoaXN0b3J5IjpbLTE0OTg4OTUyMDQsLTY2MjEzOTQzNiwyMD
+g1MTExODA5LC0yMDAzMzE4NzQ0LDI3NTM5NDk1NywtMTU4Mzg4
+MjkzOSw5MjI0OTU4OTUsMTk5ODg3NDgxMywtNzcxMTg3NjM3LC
+01ODc2MDQ1NTYsLTkwMjQwMDY1LC0xOTcwMTM3ODg5LDEzMjU4
+ODE1NzBdfQ==
 -->
