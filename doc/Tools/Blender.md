@@ -20,7 +20,7 @@
 | **edit** | f9 | Show tool panel (eg. Symmetrize panel) |
 | **edit** | alt+LMB | Select loop  |
 | **edit** | hover + L/click a part + ctrl+L | Select all connected (not hidden vertices)  |
-| **edit** | P | Separate selection  |
+| **edit** | P > selection| Separate selection  |
 | **edit** | ctrl+L | To link, eg. to copy **modifier** on the last select object to the firsts selected |
 | **edit** | shift+N | Recalculate normal  |
 | **sculpting>edit** | ctrl+D | toggle **dyntop** |
@@ -45,8 +45,8 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:_HotKeys/3D_View/Scul
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMTI2NDExOCwyMDg1MTExODA5LC0yMD
-AzMzE4NzQ0LDI3NTM5NDk1NywtMTU4Mzg4MjkzOSw5MjI0OTU4
-OTUsMTk5ODg3NDgxMywtNzcxMTg3NjM3LC01ODc2MDQ1NTYsLT
-kwMjQwMDY1LC0xOTcwMTM3ODg5LDEzMjU4ODE1NzBdfQ==
+eyJoaXN0b3J5IjpbLTE3NzIwNTMyNjIsMjA4NTExMTgwOSwtMj
+AwMzMxODc0NCwyNzUzOTQ5NTcsLTE1ODM4ODI5MzksOTIyNDk1
+ODk1LDE5OTg4NzQ4MTMsLTc3MTE4NzYzNywtNTg3NjA0NTU2LC
+05MDI0MDA2NSwtMTk3MDEzNzg4OSwxMzI1ODgxNTcwXX0=
 -->
