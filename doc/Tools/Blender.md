@@ -29,7 +29,7 @@
 | **sculpting** | ctrl+shift+LMB | Create a mask [about mask](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/hide_mask.html) |
 | **sculpting** | alt+M | Clear mask |
 
-
+[https://blender.stackexchange.com/questions/28466/how-to-cut-and-paste-part-of-a-mesh-to-another-mesh](https://blender.stackexchange.com/questions/28466/how-to-cut-and-paste-part-of-a-mesh-to-another-mesh)
 
 To create the toggle subtract/add brushes mode:
 [https://blender.stackexchange.com/questions/15113/is-there-a-shortcut-to-switch-between-add-and-subtract-brushes-in-sculpt-mode?noredirect=1&lq=1](https://blender.stackexchange.com/questions/15113/is-there-a-shortcut-to-switch-between-add-and-subtract-brushes-in-sculpt-mode?noredirect=1&lq=1)
@@ -44,8 +44,8 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:_HotKeys/3D_View/Scul
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDMzMTg3NDQsMjc1Mzk0OTU3LC0xNT
-gzODgyOTM5LDkyMjQ5NTg5NSwxOTk4ODc0ODEzLC03NzExODc2
-MzcsLTU4NzYwNDU1NiwtOTAyNDAwNjUsLTE5NzAxMzc4ODksMT
-MyNTg4MTU3MF19
+eyJoaXN0b3J5IjpbMjA4NTExMTgwOSwtMjAwMzMxODc0NCwyNz
+UzOTQ5NTcsLTE1ODM4ODI5MzksOTIyNDk1ODk1LDE5OTg4NzQ4
+MTMsLTc3MTE4NzYzNywtNTg3NjA0NTU2LC05MDI0MDA2NSwtMT
+k3MDEzNzg4OSwxMzI1ODgxNTcwXX0=
 -->
