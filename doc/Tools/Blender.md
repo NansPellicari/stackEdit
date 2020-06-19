@@ -16,12 +16,11 @@
 | **3d viewport** | **object** | . (numpad) | Frame selected = Focus on selected object |
 | **3d viewport** | **object** | 0 (numpad) | Camera view |
 | **3d viewport** | **object** | G [[shift+]Z,Y,X] | **G**rab = move selected object; if **Z,Y or X** = constraint movement on the axis, **shift** allows to exlude 1 axis |
-| **3d viewport** | **object** | R [[shift+]Z,Y,X] | **R**otate selected object |
-| **3d viewport** | **object** | alt+R | Cancel last **R**otation |
-| **3d viewport** | **object** | S [[shift+]Z,Y,X] | **S**cale selected object |
-| **3d viewport** | **object** | alt+S | Cancel last **S**cale |
+| **3d viewport** | **object** | R | **R**otate selected object |
+| **3d viewport** | **object** | S | **S**cale selected object |
 | **3d viewport** | **object** | [S,G,R]+[Z,Y,X]*2 | use local axis for scale, grab or rotate |
 | **3d viewport** | **object** | alt+[S,G,R] | cancel last transformation |
+| **3d viewport** | **object** | [S,G,R]+shift+[Z,Y,X] | transform excluding axis |
 | **3d viewport** | **object** | A | Select All |
 | **3d viewport** | **object** | alt+A | Deselect All |
 | **3d viewport** | **object** | shift+A | Add |
@@ -64,7 +63,7 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:\_HotKeys/3D_View/Scu
 | **edit** | symmetrize | top panel > Mesh > Symmetrize |
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxOTE5Nzc0NSwxMTQ1NTEzMDAzLC0xNT
+eyJoaXN0b3J5IjpbLTg1MDQyODUwOSwxMTQ1NTEzMDAzLC0xNT
 Q4ODgyMzI1LC0xOTY4NDAwMDEyLDEzODUzNDM2NSwxMzUwNjg0
 ODk2LDEwMTg3Mjc4MjAsLTE1NTkyNjIzMzEsNzI1Nzc3ODE2LC
 0xOTM1OTQ2NzE2LC0xNTM0NzcwNzAzLC0xNjU5MzYwMDMzLC0x
