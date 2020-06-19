@@ -5,8 +5,8 @@
 
  | view | keybindings | what it does |
 | -- | :--: | -- |
-| **object** | .(numpad) | Frame selected = Focus on object  |
-| **object** | 0(numpad) | Camera view  |
+| **object** | . (numpad) | Frame selected = Focus on object  |
+| **object** | 0 (numpad) | Camera view  |
 | **object** | shift+S | Reposition cursor |
 | **object** | A | Select All |
 | **object** | alt+A | Deselect All |
@@ -50,7 +50,7 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:_HotKeys/3D_View/Scul
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDYzMTM3MTIsLTE1MzQ3NzA3MDMsLT
+eyJoaXN0b3J5IjpbLTE5MzU5NDY3MTYsLTE1MzQ3NzA3MDMsLT
 E2NTkzNjAwMzMsLTE0OTg4OTUyMDQsLTY2MjEzOTQzNiwyMDg1
 MTExODA5LC0yMDAzMzE4NzQ0LDI3NTM5NDk1NywtMTU4Mzg4Mj
 kzOSw5MjI0OTU4OTUsMTk5ODg3NDgxMywtNzcxMTg3NjM3LC01
