@@ -5,6 +5,7 @@
 
  | view | keybindings | what it does |
 | -- | :--: | -- |
+| **every** | ctrl+space | extend panel in full screen |
 | **object** | . (numpad) | Frame selected = Focus on object  |
 | **object** | 0 (numpad) | Camera view  |
 | **object** | shift+S | Reposition cursor |
@@ -12,14 +13,13 @@
 | **object** | alt+A | Deselect All |
 | **object** | shift+A | Add |
 | **object** | ctrl+A | Apply (rot, pos, scale) |
-| **object** | ctrl+space | extend in full screen |
 | **object** | S + z*2 | use local Z for scale |
 | **object** | RMB | Show context menu |
 | **object** | ctrl+J | Join selectedobject |
 | **object** | ctrl+1-5 | Add modifier subdiviser |
-| **every** | N | Toggle right panel display |
-| **every** | T | Toggle left panel display |
-| **every** | alt+Z | Toggle x-ray |
+| **3d viewport** panel | N | Toggle right panel display |
+| **3d viewport** panel | T | Toggle left panel display |
+| **3d viewport** panel | alt+Z | Toggle x-ray |
 | **edit** | shift+D | Duplicate selected faces/edges/vertex (RMB to duplicate "in place") |
 | **edit** | ctrl+R | Loop cut |
 | **edit** | f9 | Show tool panel (eg. Symmetrize panel) |
@@ -50,10 +50,10 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:_HotKeys/3D_View/Scul
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzU5NDY3MTYsLTE1MzQ3NzA3MDMsLT
-E2NTkzNjAwMzMsLTE0OTg4OTUyMDQsLTY2MjEzOTQzNiwyMDg1
-MTExODA5LC0yMDAzMzE4NzQ0LDI3NTM5NDk1NywtMTU4Mzg4Mj
-kzOSw5MjI0OTU4OTUsMTk5ODg3NDgxMywtNzcxMTg3NjM3LC01
-ODc2MDQ1NTYsLTkwMjQwMDY1LC0xOTcwMTM3ODg5LDEzMjU4OD
-E1NzBdfQ==
+eyJoaXN0b3J5IjpbNzI1Nzc3ODE2LC0xOTM1OTQ2NzE2LC0xNT
+M0NzcwNzAzLC0xNjU5MzYwMDMzLC0xNDk4ODk1MjA0LC02NjIx
+Mzk0MzYsMjA4NTExMTgwOSwtMjAwMzMxODc0NCwyNzUzOTQ5NT
+csLTE1ODM4ODI5MzksOTIyNDk1ODk1LDE5OTg4NzQ4MTMsLTc3
+MTE4NzYzNywtNTg3NjA0NTU2LC05MDI0MDA2NSwtMTk3MDEzNz
+g4OSwxMzI1ODgxNTcwXX0=
 -->
