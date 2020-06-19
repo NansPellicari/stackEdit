@@ -10,7 +10,7 @@
 | Panel | mode | keybindings | what they do |
 | --------------- | :-----------: | ------------------------------- | ----------------------------------------------------------------------------------------------------------- |
 | **All** | | ctrl+space | toggle panel extension in full screen |
-| **3d viewport** | **all** | shift+space |  |
+| **3d viewport** | **all** | shift+space | Pop up tools panel |
 | **3d viewport** | **object** | . (numpad) | Frame selected = Focus on object |
 | **3d viewport** | **object** | 0 (numpad) | Camera view |
 | **3d viewport** | **object** | shift+S | Reposition cursor |
@@ -56,11 +56,11 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:\_HotKeys/3D_View/Scu
 | **edit** | symmetrize | top panel > Mesh > Symmetrize |
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDY4NjIzMTMsMTAxODcyNzgyMCwtMT
-U1OTI2MjMzMSw3MjU3Nzc4MTYsLTE5MzU5NDY3MTYsLTE1MzQ3
-NzA3MDMsLTE2NTkzNjAwMzMsLTE0OTg4OTUyMDQsLTY2MjEzOT
-QzNiwyMDg1MTExODA5LC0yMDAzMzE4NzQ0LDI3NTM5NDk1Nywt
-MTU4Mzg4MjkzOSw5MjI0OTU4OTUsMTk5ODg3NDgxMywtNzcxMT
-g3NjM3LC01ODc2MDQ1NTYsLTkwMjQwMDY1LC0xOTcwMTM3ODg5
-LDEzMjU4ODE1NzBdfQ==
+eyJoaXN0b3J5IjpbMTM1MDY4NDg5NiwxMDE4NzI3ODIwLC0xNT
+U5MjYyMzMxLDcyNTc3NzgxNiwtMTkzNTk0NjcxNiwtMTUzNDc3
+MDcwMywtMTY1OTM2MDAzMywtMTQ5ODg5NTIwNCwtNjYyMTM5ND
+M2LDIwODUxMTE4MDksLTIwMDMzMTg3NDQsMjc1Mzk0OTU3LC0x
+NTgzODgyOTM5LDkyMjQ5NTg5NSwxOTk4ODc0ODEzLC03NzExOD
+c2MzcsLTU4NzYwNDU1NiwtOTAyNDAwNjUsLTE5NzAxMzc4ODks
+MTMyNTg4MTU3MF19
 -->
