@@ -18,10 +18,11 @@
 | **3d viewport** | **object** | G | **G**rab = move selected object |
 | **3d viewport** | **object** | R | **R**otate selected object |
 | **3d viewport** | **object** | S | **S**cale selected object |
-| **3d viewport** | **object** | [S,G,R]+[Z,Y,X] | **Z,Y or X** = constraint transform on the axis |
+| **3d viewport** | **object** | [S,G,R]+[Z,Y,X] | **Z,Y or X** = constraint transform to the axis |
 | **3d viewport** | **object** | [S,G,R]+shift+[Z,Y,X] | transform excluding axis |
-| **3d viewport** | **object** | [S,G,R]+[Z,Y,X]*2 | use **local** axis to constraint transform |
+| **3d viewport** | **object** | [S,G,R]+[Z,Y,X]*2 | use **local** axis to constraint transformation |
 | **3d viewport** | **object** | alt+[S,G,R] | cancel last transformation |
+| **3d viewport** | **object** | hold shift (during S,G,R) | more precise |
 | **3d viewport** | **object** | A | Select All |
 | **3d viewport** | **object** | alt+A | Deselect All |
 | **3d viewport** | **object** | shift+A | Add |
@@ -63,11 +64,11 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:\_HotKeys/3D_View/Scu
 | **edit** | symmetrize | top panel > Mesh > Symmetrize |
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MjE0MDIyMSwxMTQ1NTEzMDAzLC0xNT
-Q4ODgyMzI1LC0xOTY4NDAwMDEyLDEzODUzNDM2NSwxMzUwNjg0
-ODk2LDEwMTg3Mjc4MjAsLTE1NTkyNjIzMzEsNzI1Nzc3ODE2LC
-0xOTM1OTQ2NzE2LC0xNTM0NzcwNzAzLC0xNjU5MzYwMDMzLC0x
-NDk4ODk1MjA0LC02NjIxMzk0MzYsMjA4NTExMTgwOSwtMjAwMz
-MxODc0NCwyNzUzOTQ5NTcsLTE1ODM4ODI5MzksOTIyNDk1ODk1
-LDE5OTg4NzQ4MTNdfQ==
+eyJoaXN0b3J5IjpbODM4MzgwODQzLDExNDU1MTMwMDMsLTE1ND
+g4ODIzMjUsLTE5Njg0MDAwMTIsMTM4NTM0MzY1LDEzNTA2ODQ4
+OTYsMTAxODcyNzgyMCwtMTU1OTI2MjMzMSw3MjU3Nzc4MTYsLT
+E5MzU5NDY3MTYsLTE1MzQ3NzA3MDMsLTE2NTkzNjAwMzMsLTE0
+OTg4OTUyMDQsLTY2MjEzOTQzNiwyMDg1MTExODA5LC0yMDAzMz
+E4NzQ0LDI3NTM5NDk1NywtMTU4Mzg4MjkzOSw5MjI0OTU4OTUs
+MTk5ODg3NDgxM119
 -->
