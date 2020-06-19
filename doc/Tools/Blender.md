@@ -11,6 +11,7 @@
 | --------------- | :-----------: | ------------------------------- | ----------------------------------------------------------------------------------------------------------- |
 | **All** | | ctrl+space | toggle panel extension in full screen |
 | **3d viewport** | **all** | shift+space | Pop up tools panel |
+| **3d viewport** | **all** | x,delete | propose to remove selection (**D** to confirm) |
 | **3d viewport** | **object/editing** | shift+S | Reposition cursor panel |
 | **3d viewport** | **object/editing** | shift+RMB | Reposition cursor |
 | **3d viewport** | **object** | . (numpad) | Frame selected = Focus on selected object |
@@ -65,11 +66,11 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:\_HotKeys/3D_View/Scu
 | **edit** | symmetrize | top panel > Mesh > Symmetrize |
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxOTQ5NzUxNiwxMTQ1NTEzMDAzLC0xNT
-Q4ODgyMzI1LC0xOTY4NDAwMDEyLDEzODUzNDM2NSwxMzUwNjg0
-ODk2LDEwMTg3Mjc4MjAsLTE1NTkyNjIzMzEsNzI1Nzc3ODE2LC
-0xOTM1OTQ2NzE2LC0xNTM0NzcwNzAzLC0xNjU5MzYwMDMzLC0x
-NDk4ODk1MjA0LC02NjIxMzk0MzYsMjA4NTExMTgwOSwtMjAwMz
-MxODc0NCwyNzUzOTQ5NTcsLTE1ODM4ODI5MzksOTIyNDk1ODk1
-LDE5OTg4NzQ4MTNdfQ==
+eyJoaXN0b3J5IjpbLTY5NDcwMTIxNCwtNTE5NDk3NTE2LDExND
+U1MTMwMDMsLTE1NDg4ODIzMjUsLTE5Njg0MDAwMTIsMTM4NTM0
+MzY1LDEzNTA2ODQ4OTYsMTAxODcyNzgyMCwtMTU1OTI2MjMzMS
+w3MjU3Nzc4MTYsLTE5MzU5NDY3MTYsLTE1MzQ3NzA3MDMsLTE2
+NTkzNjAwMzMsLTE0OTg4OTUyMDQsLTY2MjEzOTQzNiwyMDg1MT
+ExODA5LC0yMDAzMzE4NzQ0LDI3NTM5NDk1NywtMTU4Mzg4Mjkz
+OSw5MjI0OTU4OTVdfQ==
 -->
