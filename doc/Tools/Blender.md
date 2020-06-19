@@ -26,7 +26,6 @@
 | **3d viewport** | **object** | alt+A | Deselect All |
 | **3d viewport** | **object** | shift+A | Add |
 | **3d viewport** | **object** | ctrl+A | Apply (rot, pos, scale) |
-
 | **3d viewport** | **object** | RMB | Show context menu |
 | **3d viewport** | **object** | ctrl+J | Join selectedobject |
 | **3d viewport** | **object** | ctrl+1-5 | Add modifier subdiviser |
@@ -64,7 +63,7 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:\_HotKeys/3D_View/Scu
 | **edit** | symmetrize | top panel > Mesh > Symmetrize |
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MzAzNDAwNSwxMTQ1NTEzMDAzLC0xNT
+eyJoaXN0b3J5IjpbLTQ0MjE0MDIyMSwxMTQ1NTEzMDAzLC0xNT
 Q4ODgyMzI1LC0xOTY4NDAwMDEyLDEzODUzNDM2NSwxMzUwNjg0
 ODk2LDEwMTg3Mjc4MjAsLTE1NTkyNjIzMzEsNzI1Nzc3ODE2LC
 0xOTM1OTQ2NzE2LC0xNTM0NzcwNzAzLC0xNjU5MzYwMDMzLC0x
