@@ -5,6 +5,8 @@
  | view | keybindings | what it does |
 | -- | :--: | -- |
 | **object** | shift+S | Reposition cursor |
+| **object** | A | Select All |
+| **object** | alt+A | Deselect All |
 | **object** | shift+A | Add |
 | **object** | ctrl+A | Apply (rot, pos, scale) |
 | **object** | ctrl+space | extend in full screen |
@@ -45,9 +47,9 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:_HotKeys/3D_View/Scul
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTg4OTUyMDQsLTY2MjEzOTQzNiwyMD
-g1MTExODA5LC0yMDAzMzE4NzQ0LDI3NTM5NDk1NywtMTU4Mzg4
-MjkzOSw5MjI0OTU4OTUsMTk5ODg3NDgxMywtNzcxMTg3NjM3LC
-01ODc2MDQ1NTYsLTkwMjQwMDY1LC0xOTcwMTM3ODg5LDEzMjU4
-ODE1NzBdfQ==
+eyJoaXN0b3J5IjpbLTE2NTkzNjAwMzMsLTE0OTg4OTUyMDQsLT
+Y2MjEzOTQzNiwyMDg1MTExODA5LC0yMDAzMzE4NzQ0LDI3NTM5
+NDk1NywtMTU4Mzg4MjkzOSw5MjI0OTU4OTUsMTk5ODg3NDgxMy
+wtNzcxMTg3NjM3LC01ODc2MDQ1NTYsLTkwMjQwMDY1LC0xOTcw
+MTM3ODg5LDEzMjU4ODE1NzBdfQ==
 -->
