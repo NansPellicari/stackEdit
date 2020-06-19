@@ -13,7 +13,7 @@
 | **3d viewport** | **all** | shift+space | Pop up tools panel |
 | **3d viewport** | **object/editing** | shift+S | Reposition cursor panel |
 | **3d viewport** | **object/editing** | shift+RMB | Reposition cursor |
-| **3d viewport** | **object** | . (numpad) | Frame selected = Focus on object |
+| **3d viewport** | **object** | . (numpad) | Frame selected = Focus on selected object |
 | **3d viewport** | **object** | 0 (numpad) | Camera view |
 | **3d viewport** | **object** | A | Select All |
 | **3d viewport** | **object** | alt+A | Deselect All |
@@ -57,11 +57,11 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:\_HotKeys/3D_View/Scu
 | **edit** | symmetrize | top panel > Mesh > Symmetrize |
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NzU0MzA0MiwxMzUwNjg0ODk2LDEwMT
-g3Mjc4MjAsLTE1NTkyNjIzMzEsNzI1Nzc3ODE2LC0xOTM1OTQ2
-NzE2LC0xNTM0NzcwNzAzLC0xNjU5MzYwMDMzLC0xNDk4ODk1Mj
-A0LC02NjIxMzk0MzYsMjA4NTExMTgwOSwtMjAwMzMxODc0NCwy
-NzUzOTQ5NTcsLTE1ODM4ODI5MzksOTIyNDk1ODk1LDE5OTg4Nz
-Q4MTMsLTc3MTE4NzYzNywtNTg3NjA0NTU2LC05MDI0MDA2NSwt
-MTk3MDEzNzg4OV19
+eyJoaXN0b3J5IjpbMTM4NTM0MzY1LDEzNTA2ODQ4OTYsMTAxOD
+cyNzgyMCwtMTU1OTI2MjMzMSw3MjU3Nzc4MTYsLTE5MzU5NDY3
+MTYsLTE1MzQ3NzA3MDMsLTE2NTkzNjAwMzMsLTE0OTg4OTUyMD
+QsLTY2MjEzOTQzNiwyMDg1MTExODA5LC0yMDAzMzE4NzQ0LDI3
+NTM5NDk1NywtMTU4Mzg4MjkzOSw5MjI0OTU4OTUsMTk5ODg3ND
+gxMywtNzcxMTg3NjM3LC01ODc2MDQ1NTYsLTkwMjQwMDY1LC0x
+OTcwMTM3ODg5XX0=
 -->
