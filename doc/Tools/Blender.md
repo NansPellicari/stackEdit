@@ -30,6 +30,7 @@
 | **3d viewport** | **object** | RMB | Show context menu |
 | **3d viewport** | **object** | ctrl+J | Join selectedobject |
 | **3d viewport** | **object** | ctrl+1-5 | Add modifier subdiviser |
+ **3d viewport** | **object** | tab | Select All |
 | **3d viewport** | **every** | N | Toggle right panel display |
 | **3d viewport** | **every** | T | Toggle left panel display |
 | **3d viewport** | **every** | alt+Z | Toggle x-ray |
@@ -64,11 +65,11 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:\_HotKeys/3D_View/Scu
 | **edit** | symmetrize | top panel > Mesh > Symmetrize |
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM4MzgwODQzLDExNDU1MTMwMDMsLTE1ND
-g4ODIzMjUsLTE5Njg0MDAwMTIsMTM4NTM0MzY1LDEzNTA2ODQ4
-OTYsMTAxODcyNzgyMCwtMTU1OTI2MjMzMSw3MjU3Nzc4MTYsLT
-E5MzU5NDY3MTYsLTE1MzQ3NzA3MDMsLTE2NTkzNjAwMzMsLTE0
-OTg4OTUyMDQsLTY2MjEzOTQzNiwyMDg1MTExODA5LC0yMDAzMz
-E4NzQ0LDI3NTM5NDk1NywtMTU4Mzg4MjkzOSw5MjI0OTU4OTUs
-MTk5ODg3NDgxM119
+eyJoaXN0b3J5IjpbLTEwNDI2NTEyNjksMTE0NTUxMzAwMywtMT
+U0ODg4MjMyNSwtMTk2ODQwMDAxMiwxMzg1MzQzNjUsMTM1MDY4
+NDg5NiwxMDE4NzI3ODIwLC0xNTU5MjYyMzMxLDcyNTc3NzgxNi
+wtMTkzNTk0NjcxNiwtMTUzNDc3MDcwMywtMTY1OTM2MDAzMywt
+MTQ5ODg5NTIwNCwtNjYyMTM5NDM2LDIwODUxMTE4MDksLTIwMD
+MzMTg3NDQsMjc1Mzk0OTU3LC0xNTgzODgyOTM5LDkyMjQ5NTg5
+NSwxOTk4ODc0ODEzXX0=
 -->
