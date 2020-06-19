@@ -15,7 +15,7 @@
 | **3d viewport** | **object/editing** | shift+RMB | Reposition cursor |
 | **3d viewport** | **object** | . (numpad) | Frame selected = Focus on selected object |
 | **3d viewport** | **object** | 0 (numpad) | Camera view |
-| **3d viewport** | **object** | G [[shift+]Z,Y,X] | **G**rab = move object; if Z,Y or X defined: stick to the axis   |
+| **3d viewport** | **object** | G [[shift+]Z,Y,X] | **G**rab = move object; if Z,Y or X: axis to move on |
 | **3d viewport** | **object** | A | Select All |
 | **3d viewport** | **object** | alt+A | Deselect All |
 | **3d viewport** | **object** | shift+A | Add |
@@ -58,11 +58,11 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:\_HotKeys/3D_View/Scu
 | **edit** | symmetrize | top panel > Mesh > Symmetrize |
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjU1OTQwNDMsMTM4NTM0MzY1LDEzNT
-A2ODQ4OTYsMTAxODcyNzgyMCwtMTU1OTI2MjMzMSw3MjU3Nzc4
-MTYsLTE5MzU5NDY3MTYsLTE1MzQ3NzA3MDMsLTE2NTkzNjAwMz
-MsLTE0OTg4OTUyMDQsLTY2MjEzOTQzNiwyMDg1MTExODA5LC0y
-MDAzMzE4NzQ0LDI3NTM5NDk1NywtMTU4Mzg4MjkzOSw5MjI0OT
-U4OTUsMTk5ODg3NDgxMywtNzcxMTg3NjM3LC01ODc2MDQ1NTYs
-LTkwMjQwMDY1XX0=
+eyJoaXN0b3J5IjpbMTcyOTk4OTcyMSwxMzg1MzQzNjUsMTM1MD
+Y4NDg5NiwxMDE4NzI3ODIwLC0xNTU5MjYyMzMxLDcyNTc3Nzgx
+NiwtMTkzNTk0NjcxNiwtMTUzNDc3MDcwMywtMTY1OTM2MDAzMy
+wtMTQ5ODg5NTIwNCwtNjYyMTM5NDM2LDIwODUxMTE4MDksLTIw
+MDMzMTg3NDQsMjc1Mzk0OTU3LC0xNTgzODgyOTM5LDkyMjQ5NT
+g5NSwxOTk4ODc0ODEzLC03NzExODc2MzcsLTU4NzYwNDU1Niwt
+OTAyNDAwNjVdfQ==
 -->
