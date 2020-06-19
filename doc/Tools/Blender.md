@@ -20,7 +20,7 @@
 | **3d viewport** | **object** | S | **S**cale selected object |
 | **3d viewport** | **object** | [S,G,R]+[Z,Y,X] | **Z,Y or X** = constraint transform on the axis |
 | **3d viewport** | **object** | [S,G,R]+shift+[Z,Y,X] | transform excluding axis |
-| **3d viewport** | **object** | [S,G,R]+[Z,Y,X]*2 | use local axis for scale, grab or rotate |
+| **3d viewport** | **object** | [S,G,R]+[Z,Y,X]*2 | use **local** axis to constraint transform |
 | **3d viewport** | **object** | alt+[S,G,R] | cancel last transformation |
 | **3d viewport** | **object** | A | Select All |
 | **3d viewport** | **object** | alt+A | Deselect All |
@@ -64,11 +64,11 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:\_HotKeys/3D_View/Scu
 | **edit** | symmetrize | top panel > Mesh > Symmetrize |
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTYzNTIwMTQsMTE0NTUxMzAwMywtMT
-U0ODg4MjMyNSwtMTk2ODQwMDAxMiwxMzg1MzQzNjUsMTM1MDY4
-NDg5NiwxMDE4NzI3ODIwLC0xNTU5MjYyMzMxLDcyNTc3NzgxNi
-wtMTkzNTk0NjcxNiwtMTUzNDc3MDcwMywtMTY1OTM2MDAzMywt
-MTQ5ODg5NTIwNCwtNjYyMTM5NDM2LDIwODUxMTE4MDksLTIwMD
-MzMTg3NDQsMjc1Mzk0OTU3LC0xNTgzODgyOTM5LDkyMjQ5NTg5
-NSwxOTk4ODc0ODEzXX0=
+eyJoaXN0b3J5IjpbMTk4MzAzNDAwNSwxMTQ1NTEzMDAzLC0xNT
+Q4ODgyMzI1LC0xOTY4NDAwMDEyLDEzODUzNDM2NSwxMzUwNjg0
+ODk2LDEwMTg3Mjc4MjAsLTE1NTkyNjIzMzEsNzI1Nzc3ODE2LC
+0xOTM1OTQ2NzE2LC0xNTM0NzcwNzAzLC0xNjU5MzYwMDMzLC0x
+NDk4ODk1MjA0LC02NjIxMzk0MzYsMjA4NTExMTgwOSwtMjAwMz
+MxODc0NCwyNzUzOTQ5NTcsLTE1ODM4ODI5MzksOTIyNDk1ODk1
+LDE5OTg4NzQ4MTNdfQ==
 -->
