@@ -3,7 +3,7 @@
 ## Usefull shortcuts
 
 
- | view | keybindings | what it does |
+ | view |  | mode |  keybindings | what it does |
 | -- | :--: | -- |
 | **every** | ctrl+space | extend panel in full screen |
 | **object** | . (numpad) | Frame selected = Focus on object  |
@@ -50,10 +50,10 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:_HotKeys/3D_View/Scul
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI1Nzc3ODE2LC0xOTM1OTQ2NzE2LC0xNT
-M0NzcwNzAzLC0xNjU5MzYwMDMzLC0xNDk4ODk1MjA0LC02NjIx
-Mzk0MzYsMjA4NTExMTgwOSwtMjAwMzMxODc0NCwyNzUzOTQ5NT
-csLTE1ODM4ODI5MzksOTIyNDk1ODk1LDE5OTg4NzQ4MTMsLTc3
-MTE4NzYzNywtNTg3NjA0NTU2LC05MDI0MDA2NSwtMTk3MDEzNz
-g4OSwxMzI1ODgxNTcwXX0=
+eyJoaXN0b3J5IjpbLTE1NTkyNjIzMzEsNzI1Nzc3ODE2LC0xOT
+M1OTQ2NzE2LC0xNTM0NzcwNzAzLC0xNjU5MzYwMDMzLC0xNDk4
+ODk1MjA0LC02NjIxMzk0MzYsMjA4NTExMTgwOSwtMjAwMzMxOD
+c0NCwyNzUzOTQ5NTcsLTE1ODM4ODI5MzksOTIyNDk1ODk1LDE5
+OTg4NzQ4MTMsLTc3MTE4NzYzNywtNTg3NjA0NTU2LC05MDI0MD
+A2NSwtMTk3MDEzNzg4OSwxMzI1ODgxNTcwXX0=
 -->
