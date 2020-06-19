@@ -5,7 +5,7 @@
 
  | view | keybindings | what it does |
 | -- | :--: | -- |
-| **object** | .(numpad) | Focus object |
+| **object** | .(numpad) | Frame selected = Focus on object  |
 | **object** | shift+S | Reposition cursor |
 | **object** | A | Select All |
 | **object** | alt+A | Deselect All |
@@ -49,10 +49,10 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:_HotKeys/3D_View/Scul
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDI2Njk4ODcsLTE1MzQ3NzA3MDMsLT
-E2NTkzNjAwMzMsLTE0OTg4OTUyMDQsLTY2MjEzOTQzNiwyMDg1
-MTExODA5LC0yMDAzMzE4NzQ0LDI3NTM5NDk1NywtMTU4Mzg4Mj
-kzOSw5MjI0OTU4OTUsMTk5ODg3NDgxMywtNzcxMTg3NjM3LC01
-ODc2MDQ1NTYsLTkwMjQwMDY1LC0xOTcwMTM3ODg5LDEzMjU4OD
-E1NzBdfQ==
+eyJoaXN0b3J5IjpbMTI5NTQwNzU0NSwtMTUzNDc3MDcwMywtMT
+Y1OTM2MDAzMywtMTQ5ODg5NTIwNCwtNjYyMTM5NDM2LDIwODUx
+MTE4MDksLTIwMDMzMTg3NDQsMjc1Mzk0OTU3LC0xNTgzODgyOT
+M5LDkyMjQ5NTg5NSwxOTk4ODc0ODEzLC03NzExODc2MzcsLTU4
+NzYwNDU1NiwtOTAyNDAwNjUsLTE5NzAxMzc4ODksMTMyNTg4MT
+U3MF19
 -->
