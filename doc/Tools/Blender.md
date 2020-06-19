@@ -24,6 +24,7 @@
 | **3d viewport** | **object** | alt+A | Deselect All |
 | **3d viewport** | **object** | shift+A | Add |
 | **3d viewport** | **object** | ctrl+A | Apply (rot, pos, scale) |
+
 | **3d viewport** | **object** | S + z\*2 | use local Z for scale |
 | **3d viewport** | **object** | RMB | Show context menu |
 | **3d viewport** | **object** | ctrl+J | Join selectedobject |
@@ -62,11 +63,11 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:\_HotKeys/3D_View/Scu
 | **edit** | symmetrize | top panel > Mesh > Symmetrize |
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NTUxMzAwMywtMTU0ODg4MjMyNSwtMT
-k2ODQwMDAxMiwxMzg1MzQzNjUsMTM1MDY4NDg5NiwxMDE4NzI3
-ODIwLC0xNTU5MjYyMzMxLDcyNTc3NzgxNiwtMTkzNTk0NjcxNi
-wtMTUzNDc3MDcwMywtMTY1OTM2MDAzMywtMTQ5ODg5NTIwNCwt
-NjYyMTM5NDM2LDIwODUxMTE4MDksLTIwMDMzMTg3NDQsMjc1Mz
-k0OTU3LC0xNTgzODgyOTM5LDkyMjQ5NTg5NSwxOTk4ODc0ODEz
-LC03NzExODc2MzddfQ==
+eyJoaXN0b3J5IjpbLTE1MjE5MTgxNDcsMTE0NTUxMzAwMywtMT
+U0ODg4MjMyNSwtMTk2ODQwMDAxMiwxMzg1MzQzNjUsMTM1MDY4
+NDg5NiwxMDE4NzI3ODIwLC0xNTU5MjYyMzMxLDcyNTc3NzgxNi
+wtMTkzNTk0NjcxNiwtMTUzNDc3MDcwMywtMTY1OTM2MDAzMywt
+MTQ5ODg5NTIwNCwtNjYyMTM5NDM2LDIwODUxMTE4MDksLTIwMD
+MzMTg3NDQsMjc1Mzk0OTU3LC0xNTgzODgyOTM5LDkyMjQ5NTg5
+NSwxOTk4ODc0ODEzXX0=
 -->
