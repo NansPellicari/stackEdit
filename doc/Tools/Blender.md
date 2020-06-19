@@ -2,6 +2,8 @@
 
 ## Usefull shortcuts
 
+test
+
  | view | keybindings | what it does |
 | -- | :--: | -- |
 | **object** | shift+S | Reposition cursor |
@@ -47,9 +49,9 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:_HotKeys/3D_View/Scul
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTkzNjAwMzMsLTE0OTg4OTUyMDQsLT
-Y2MjEzOTQzNiwyMDg1MTExODA5LC0yMDAzMzE4NzQ0LDI3NTM5
-NDk1NywtMTU4Mzg4MjkzOSw5MjI0OTU4OTUsMTk5ODg3NDgxMy
-wtNzcxMTg3NjM3LC01ODc2MDQ1NTYsLTkwMjQwMDY1LC0xOTcw
-MTM3ODg5LDEzMjU4ODE1NzBdfQ==
+eyJoaXN0b3J5IjpbMTIyNjQzOTcwMSwtMTY1OTM2MDAzMywtMT
+Q5ODg5NTIwNCwtNjYyMTM5NDM2LDIwODUxMTE4MDksLTIwMDMz
+MTg3NDQsMjc1Mzk0OTU3LC0xNTgzODgyOTM5LDkyMjQ5NTg5NS
+wxOTk4ODc0ODEzLC03NzExODc2MzcsLTU4NzYwNDU1NiwtOTAy
+NDAwNjUsLTE5NzAxMzc4ODksMTMyNTg4MTU3MF19
 -->
