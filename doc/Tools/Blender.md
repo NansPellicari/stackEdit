@@ -17,6 +17,7 @@
 | **3d viewport** | **all** | alt+Z | Toggle x-ray |
 | **3d viewport** | **all** | H | hide selected object/vertices/edges/faces |
 | **3d viewport** | **all** | shift+H | hide everything but the selected object/vertices/edges/faces |
+| **3d viewport** | **all** | alt+H | hide everything but the selected object/vertices/edges/faces |
 | **3d viewport** | **object/editing** | shift+S | Reposition cursor panel |
 | **3d viewport** | **object/editing** | shift+RMB | Reposition cursor |
 | **3d viewport** | **object** | . (numpad) | Frame selected = Focus on selected object |
@@ -68,7 +69,7 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:\_HotKeys/3D_View/Scu
 | **edit** | symmetrize | top panel > Mesh > Symmetrize |
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMTk2ODM5OCwtNjk0NzAxMjE0LC01MT
+eyJoaXN0b3J5IjpbMTg2OTU3OTMyNywtNjk0NzAxMjE0LC01MT
 k0OTc1MTYsMTE0NTUxMzAwMywtMTU0ODg4MjMyNSwtMTk2ODQw
 MDAxMiwxMzg1MzQzNjUsMTM1MDY4NDg5NiwxMDE4NzI3ODIwLC
 0xNTU5MjYyMzMxLDcyNTc3NzgxNiwtMTkzNTk0NjcxNiwtMTUz
