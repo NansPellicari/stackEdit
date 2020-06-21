@@ -12,6 +12,9 @@
 | **All** | | ctrl+space | toggle panel extension in full screen |
 | **3d viewport** | **all** | shift+space | Pop up tools panel |
 | **3d viewport** | **all** | x,delete | propose to remove selection (**D** to confirm) |
+| **3d viewport** | **all** | N | Toggle right panel display |
+| **3d viewport** | **all** | T | Toggle left panel display |
+| **3d viewport** | **all** | alt+Z | Toggle x-ray |
 | **3d viewport** | **object/editing** | shift+S | Reposition cursor panel |
 | **3d viewport** | **object/editing** | shift+RMB | Reposition cursor |
 | **3d viewport** | **object** | . (numpad) | Frame selected = Focus on selected object |
@@ -32,9 +35,6 @@
 | **3d viewport** | **object** | ctrl+J | Join selectedobject |
 | **3d viewport** | **object** | ctrl+1-5 | Add modifier subdiviser |
  **3d viewport** | **object** | shift+tab | toggle snap mode |
-| **3d viewport** | **every** | N | Toggle right panel display |
-| **3d viewport** | **every** | T | Toggle left panel display |
-| **3d viewport** | **every** | alt+Z | Toggle x-ray |
 | **3d viewport** | **edit** | shift+D | Duplicate selected faces/edges/vertex (RMB to duplicate "in place") |
 | **3d viewport** | **edit** | ctrl+R | Loop cut |
 | **3d viewport** | **edit** | f9 | Show tool panel (eg. Symmetrize panel) |
@@ -66,11 +66,11 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:\_HotKeys/3D_View/Scu
 | **edit** | symmetrize | top panel > Mesh > Symmetrize |
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NDcwMTIxNCwtNTE5NDk3NTE2LDExND
-U1MTMwMDMsLTE1NDg4ODIzMjUsLTE5Njg0MDAwMTIsMTM4NTM0
-MzY1LDEzNTA2ODQ4OTYsMTAxODcyNzgyMCwtMTU1OTI2MjMzMS
-w3MjU3Nzc4MTYsLTE5MzU5NDY3MTYsLTE1MzQ3NzA3MDMsLTE2
-NTkzNjAwMzMsLTE0OTg4OTUyMDQsLTY2MjEzOTQzNiwyMDg1MT
-ExODA5LC0yMDAzMzE4NzQ0LDI3NTM5NDk1NywtMTU4Mzg4Mjkz
-OSw5MjI0OTU4OTVdfQ==
+eyJoaXN0b3J5IjpbLTI5NDMzMTMwNCwtNjk0NzAxMjE0LC01MT
+k0OTc1MTYsMTE0NTUxMzAwMywtMTU0ODg4MjMyNSwtMTk2ODQw
+MDAxMiwxMzg1MzQzNjUsMTM1MDY4NDg5NiwxMDE4NzI3ODIwLC
+0xNTU5MjYyMzMxLDcyNTc3NzgxNiwtMTkzNTk0NjcxNiwtMTUz
+NDc3MDcwMywtMTY1OTM2MDAzMywtMTQ5ODg5NTIwNCwtNjYyMT
+M5NDM2LDIwODUxMTE4MDksLTIwMDMzMTg3NDQsMjc1Mzk0OTU3
+LC0xNTgzODgyOTM5XX0=
 -->
