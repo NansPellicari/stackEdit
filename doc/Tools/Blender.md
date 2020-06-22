@@ -46,6 +46,7 @@
 | **3d viewport** | **edit** | P > selection | Separate selection |
 | **3d viewport** | **edit** | ctrl+L | To link, eg. to copy **modifier** on the last select object to the firsts selected |
 | **3d viewport** | **edit** | shift+N | Recalculate normal |
+| **3d viewport** | **edit** | S+[Y,Z,X]+0 | Align vertices (  |
 | **3d viewport** | **sculpting** | ctrl+D | toggle **dyntop** |
 | **3d viewport** | **sculpting** | shift+D | increase **dyntop** resolution |
 | **3d viewport** | **sculpting** | shift+space | increase **dyntop** resolution |
@@ -69,11 +70,11 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:\_HotKeys/3D_View/Scu
 | **edit** | symmetrize | top panel > Mesh > Symmetrize |
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2OTU3OTMyNywtNjk0NzAxMjE0LC01MT
-k0OTc1MTYsMTE0NTUxMzAwMywtMTU0ODg4MjMyNSwtMTk2ODQw
-MDAxMiwxMzg1MzQzNjUsMTM1MDY4NDg5NiwxMDE4NzI3ODIwLC
-0xNTU5MjYyMzMxLDcyNTc3NzgxNiwtMTkzNTk0NjcxNiwtMTUz
-NDc3MDcwMywtMTY1OTM2MDAzMywtMTQ5ODg5NTIwNCwtNjYyMT
-M5NDM2LDIwODUxMTE4MDksLTIwMDMzMTg3NDQsMjc1Mzk0OTU3
-LC0xNTgzODgyOTM5XX0=
+eyJoaXN0b3J5IjpbLTI1OTg2MTIwLDE4Njk1NzkzMjcsLTY5ND
+cwMTIxNCwtNTE5NDk3NTE2LDExNDU1MTMwMDMsLTE1NDg4ODIz
+MjUsLTE5Njg0MDAwMTIsMTM4NTM0MzY1LDEzNTA2ODQ4OTYsMT
+AxODcyNzgyMCwtMTU1OTI2MjMzMSw3MjU3Nzc4MTYsLTE5MzU5
+NDY3MTYsLTE1MzQ3NzA3MDMsLTE2NTkzNjAwMzMsLTE0OTg4OT
+UyMDQsLTY2MjEzOTQzNiwyMDg1MTExODA5LC0yMDAzMzE4NzQ0
+LDI3NTM5NDk1N119
 -->
