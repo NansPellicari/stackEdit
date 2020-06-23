@@ -40,7 +40,7 @@
  **3d viewport** | **object** | shift+tab | toggle snap mode |
 | **3d viewport** | **object** | M | Move to collection  |
 | **3d viewport** | **object** | shift+M | Link to collection |
-| **3d viewport** | **object** | ctrl+G | Link to collection |
+| **3d viewport** | **object** | ctrl+G3 | Link to collection |
 | **3d viewport** | **edit** | shift+D | Duplicate selected faces/edges/vertex (RMB to duplicate "in place") |
 | **3d viewport** | **edit** | ctrl+R | Loop cut |
 | **3d viewport** | **edit** | f9 | Show tool panel (eg. Symmetrize panel) |
@@ -73,11 +73,11 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:\_HotKeys/3D_View/Scu
 | **edit** | symmetrize | top panel > Mesh > Symmetrize |
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MzI1NTAyNywtMTk1NTA0Nzc1MSwxOD
-Y5NTc5MzI3LC02OTQ3MDEyMTQsLTUxOTQ5NzUxNiwxMTQ1NTEz
-MDAzLC0xNTQ4ODgyMzI1LC0xOTY4NDAwMDEyLDEzODUzNDM2NS
-wxMzUwNjg0ODk2LDEwMTg3Mjc4MjAsLTE1NTkyNjIzMzEsNzI1
-Nzc3ODE2LC0xOTM1OTQ2NzE2LC0xNTM0NzcwNzAzLC0xNjU5Mz
-YwMDMzLC0xNDk4ODk1MjA0LC02NjIxMzk0MzYsMjA4NTExMTgw
-OSwtMjAwMzMxODc0NF19
+eyJoaXN0b3J5IjpbLTE1MDA5Nzk1MDQsLTE5NTUwNDc3NTEsMT
+g2OTU3OTMyNywtNjk0NzAxMjE0LC01MTk0OTc1MTYsMTE0NTUx
+MzAwMywtMTU0ODg4MjMyNSwtMTk2ODQwMDAxMiwxMzg1MzQzNj
+UsMTM1MDY4NDg5NiwxMDE4NzI3ODIwLC0xNTU5MjYyMzMxLDcy
+NTc3NzgxNiwtMTkzNTk0NjcxNiwtMTUzNDc3MDcwMywtMTY1OT
+M2MDAzMywtMTQ5ODg5NTIwNCwtNjYyMTM5NDM2LDIwODUxMTE4
+MDksLTIwMDMzMTg3NDRdfQ==
 -->
