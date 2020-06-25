@@ -21,6 +21,7 @@
 | **3d viewport** | **object/editing** | shift+S | Reposition cursor panel |
 | **3d viewport** | **object/editing** | shift+RMB | Reposition cursor |
 | **3d viewport** | **object** | . (numpad) | Frame selected = Focus on selected object |
+| **3d viewport** | **object** | ctrl+L > "Object data"| Clone object (make link): first select objects ending by the  |
 | **3d viewport** | **object** | 0 (numpad) | Camera view |
 | **3d viewport** | **object** | G | **G**rab = move selected object |
 | **3d viewport** | **object** | R | **R**otate selected object |
@@ -75,11 +76,11 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:\_HotKeys/3D_View/Scu
 | **edit** | symmetrize | top panel > Mesh > Symmetrize |
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzYyOTY3MTQsOTA4MDQ0MTMsLTIwND
-kyOTA2MjMsLTE1MDA5Nzk1MDQsLTE5NTUwNDc3NTEsMTg2OTU3
-OTMyNywtNjk0NzAxMjE0LC01MTk0OTc1MTYsMTE0NTUxMzAwMy
-wtMTU0ODg4MjMyNSwtMTk2ODQwMDAxMiwxMzg1MzQzNjUsMTM1
-MDY4NDg5NiwxMDE4NzI3ODIwLC0xNTU5MjYyMzMxLDcyNTc3Nz
-gxNiwtMTkzNTk0NjcxNiwtMTUzNDc3MDcwMywtMTY1OTM2MDAz
-MywtMTQ5ODg5NTIwNF19
+eyJoaXN0b3J5IjpbLTIwMTk3NDIzMzUsLTE3NzYyOTY3MTQsOT
+A4MDQ0MTMsLTIwNDkyOTA2MjMsLTE1MDA5Nzk1MDQsLTE5NTUw
+NDc3NTEsMTg2OTU3OTMyNywtNjk0NzAxMjE0LC01MTk0OTc1MT
+YsMTE0NTUxMzAwMywtMTU0ODg4MjMyNSwtMTk2ODQwMDAxMiwx
+Mzg1MzQzNjUsMTM1MDY4NDg5NiwxMDE4NzI3ODIwLC0xNTU5Mj
+YyMzMxLDcyNTc3NzgxNiwtMTkzNTk0NjcxNiwtMTUzNDc3MDcw
+MywtMTY1OTM2MDAzM119
 -->
