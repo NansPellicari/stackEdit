@@ -23,6 +23,7 @@
 | **3d viewport** | **object** | . (numpad) | Frame selected = Focus on selected object |
 | **3d viewport** | **object** | / (numpad) | Isolation Mode |
 | **3d viewport** | **object** | ctrl+L > "Object data"| Clone object (make link): first select objects ending by the one you want to clone ([here]([https://blender.stackexchange.com/questions/86900/how-can-i-link-the-mesh-data-of-several-objects-so-they-all-use-the-same](https://blender.stackexchange.com/questions/86900/how-can-i-link-the-mesh-data-of-several-objects-so-they-all-use-the-same))) |
+| **3d viewport** | **object** | ctrl+L | To link, eg. to copy **modifier** on the last select object to the firsts selected |
 | **3d viewport** | **object** | 0 (numpad) | Camera view |
 | **3d viewport** | **object** | G | **G**rab = move selected object |
 | **3d viewport** | **object** | R | **R**otate selected object |
@@ -76,11 +77,11 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:\_HotKeys/3D_View/Scu
 | **edit** | symmetrize | top panel > Mesh > Symmetrize |
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgwMDAyMzI3LDE3MjE3NTg0MzMsLTkzNT
-cxNzk2NywtMTc3NjI5NjcxNCw5MDgwNDQxMywtMjA0OTI5MDYy
-MywtMTUwMDk3OTUwNCwtMTk1NTA0Nzc1MSwxODY5NTc5MzI3LC
-02OTQ3MDEyMTQsLTUxOTQ5NzUxNiwxMTQ1NTEzMDAzLC0xNTQ4
-ODgyMzI1LC0xOTY4NDAwMDEyLDEzODUzNDM2NSwxMzUwNjg0OD
-k2LDEwMTg3Mjc4MjAsLTE1NTkyNjIzMzEsNzI1Nzc3ODE2LC0x
-OTM1OTQ2NzE2XX0=
+eyJoaXN0b3J5IjpbLTY1MjEwOTEwOCwxNzIxNzU4NDMzLC05Mz
+U3MTc5NjcsLTE3NzYyOTY3MTQsOTA4MDQ0MTMsLTIwNDkyOTA2
+MjMsLTE1MDA5Nzk1MDQsLTE5NTUwNDc3NTEsMTg2OTU3OTMyNy
+wtNjk0NzAxMjE0LC01MTk0OTc1MTYsMTE0NTUxMzAwMywtMTU0
+ODg4MjMyNSwtMTk2ODQwMDAxMiwxMzg1MzQzNjUsMTM1MDY4ND
+g5NiwxMDE4NzI3ODIwLC0xNTU5MjYyMzMxLDcyNTc3NzgxNiwt
+MTkzNTk0NjcxNl19
 -->
