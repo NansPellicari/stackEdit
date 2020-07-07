@@ -51,7 +51,6 @@
 | **3d viewport** | **edit** | alt+LMB | Select loop |
 | **3d viewport** | **edit** | hover + L/click a part + ctrl+L | Select all connected (not hidden vertices) |
 | **3d viewport** | **edit** | P > selection | Separate selection |
-| **3d viewport** | **edit** | ctrl+L | To link, eg. to copy **modifier** on the last select object to the firsts selected |
 | **3d viewport** | **edit** | shift+N | Recalculate normal |
 | **3d viewport** | **edit** | S+[Y,Z,X]+0 | Align vertices along the perpendiculary axe (see [here]([https://www.youtube.com/watch?v=vsgi2hNVkM4](https://www.youtube.com/watch?v=vsgi2hNVkM4))) eg. `S+Y+0` and my plan is spread out the Z axe =  it will align to the Z axes |
 | **3d viewport** | **sculpting** | ctrl+D | toggle **dyntop** |
@@ -77,11 +76,11 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:\_HotKeys/3D_View/Scu
 | **edit** | symmetrize | top panel > Mesh > Symmetrize |
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMTc1ODQzMywtOTM1NzE3OTY3LC0xNz
-c2Mjk2NzE0LDkwODA0NDEzLC0yMDQ5MjkwNjIzLC0xNTAwOTc5
-NTA0LC0xOTU1MDQ3NzUxLDE4Njk1NzkzMjcsLTY5NDcwMTIxNC
-wtNTE5NDk3NTE2LDExNDU1MTMwMDMsLTE1NDg4ODIzMjUsLTE5
-Njg0MDAwMTIsMTM4NTM0MzY1LDEzNTA2ODQ4OTYsMTAxODcyNz
-gyMCwtMTU1OTI2MjMzMSw3MjU3Nzc4MTYsLTE5MzU5NDY3MTYs
-LTE1MzQ3NzA3MDNdfQ==
+eyJoaXN0b3J5IjpbNDgwMDAyMzI3LDE3MjE3NTg0MzMsLTkzNT
+cxNzk2NywtMTc3NjI5NjcxNCw5MDgwNDQxMywtMjA0OTI5MDYy
+MywtMTUwMDk3OTUwNCwtMTk1NTA0Nzc1MSwxODY5NTc5MzI3LC
+02OTQ3MDEyMTQsLTUxOTQ5NzUxNiwxMTQ1NTEzMDAzLC0xNTQ4
+ODgyMzI1LC0xOTY4NDAwMDEyLDEzODUzNDM2NSwxMzUwNjg0OD
+k2LDEwMTg3Mjc4MjAsLTE1NTkyNjIzMzEsNzI1Nzc3ODE2LC0x
+OTM1OTQ2NzE2XX0=
 -->
