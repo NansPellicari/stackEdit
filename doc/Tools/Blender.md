@@ -54,13 +54,13 @@
 | **3d viewport** | **edit** | P > selection | Separate selection |
 | **3d viewport** | **edit** | shift+N | Recalculate normal |
 | **3d viewport** | **edit** | S+[Y,Z,X]+0 | Align vertices along the perpendiculary axe (see [here]([https://www.youtube.com/watch?v=vsgi2hNVkM4](https://www.youtube.com/watch?v=vsgi2hNVkM4))) eg. `S+Y+0` and my plan is spread out the Z axe =  it will align to the Z axes |
+| **3d viewport** | **edit** | shift+E | Change crease |
 | **3d viewport** | **sculpting** | ctrl+D | toggle **dyntop** |
 | **3d viewport** | **sculpting** | shift+D | increase **dyntop** resolution |
 | **3d viewport** | **sculpting** | shift+space | increase **dyntop** resolution |
 | **3d viewport** | **sculpting** | ² | brush direction menu (add\|subtract) |
 | **3d viewport** | **sculpting** | ctrl+shift+LMB | Create a mask [about mask](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/hide_mask.html) |
 | **3d viewport** | **sculpting** | alt+M | Clear mask |
-| **3d viewport** | **Edit** | shift+E | Change crease |
 
 [https://blender.stackexchange.com/questions/28466/how-to-cut-and-paste-part-of-a-mesh-to-another-mesh](https://blender.stackexchange.com/questions/28466/how-to-cut-and-paste-part-of-a-mesh-to-another-mesh)
 
@@ -78,11 +78,11 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:\_HotKeys/3D_View/Scu
 | **edit** | symmetrize | top panel > Mesh > Symmetrize |
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDc3OTY0NDgsLTY1MjEwOTEwOCwxNz
-IxNzU4NDMzLC05MzU3MTc5NjcsLTE3NzYyOTY3MTQsOTA4MDQ0
-MTMsLTIwNDkyOTA2MjMsLTE1MDA5Nzk1MDQsLTE5NTUwNDc3NT
-EsMTg2OTU3OTMyNywtNjk0NzAxMjE0LC01MTk0OTc1MTYsMTE0
-NTUxMzAwMywtMTU0ODg4MjMyNSwtMTk2ODQwMDAxMiwxMzg1Mz
-QzNjUsMTM1MDY4NDg5NiwxMDE4NzI3ODIwLC0xNTU5MjYyMzMx
-LDcyNTc3NzgxNl19
+eyJoaXN0b3J5IjpbLTcyODM2MzE3NiwtNjUyMTA5MTA4LDE3Mj
+E3NTg0MzMsLTkzNTcxNzk2NywtMTc3NjI5NjcxNCw5MDgwNDQx
+MywtMjA0OTI5MDYyMywtMTUwMDk3OTUwNCwtMTk1NTA0Nzc1MS
+wxODY5NTc5MzI3LC02OTQ3MDEyMTQsLTUxOTQ5NzUxNiwxMTQ1
+NTEzMDAzLC0xNTQ4ODgyMzI1LC0xOTY4NDAwMDEyLDEzODUzND
+M2NSwxMzUwNjg0ODk2LDEwMTg3Mjc4MjAsLTE1NTkyNjIzMzEs
+NzI1Nzc3ODE2XX0=
 -->
