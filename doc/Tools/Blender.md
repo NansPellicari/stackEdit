@@ -60,6 +60,7 @@
 | **3d viewport** | **sculpting** | ² | brush direction menu (add\|subtract) |
 | **3d viewport** | **sculpting** | ctrl+shift+LMB | Create a mask [about mask](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/hide_mask.html) |
 | **3d viewport** | **sculpting** | alt+M | Clear mask |
+| **3d viewport** | **sculpting** | shift+E | Change crease |
 
 [https://blender.stackexchange.com/questions/28466/how-to-cut-and-paste-part-of-a-mesh-to-another-mesh](https://blender.stackexchange.com/questions/28466/how-to-cut-and-paste-part-of-a-mesh-to-another-mesh)
 
@@ -77,11 +78,11 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:\_HotKeys/3D_View/Scu
 | **edit** | symmetrize | top panel > Mesh > Symmetrize |
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MjEwOTEwOCwxNzIxNzU4NDMzLC05Mz
-U3MTc5NjcsLTE3NzYyOTY3MTQsOTA4MDQ0MTMsLTIwNDkyOTA2
-MjMsLTE1MDA5Nzk1MDQsLTE5NTUwNDc3NTEsMTg2OTU3OTMyNy
-wtNjk0NzAxMjE0LC01MTk0OTc1MTYsMTE0NTUxMzAwMywtMTU0
-ODg4MjMyNSwtMTk2ODQwMDAxMiwxMzg1MzQzNjUsMTM1MDY4ND
-g5NiwxMDE4NzI3ODIwLC0xNTU5MjYyMzMxLDcyNTc3NzgxNiwt
-MTkzNTk0NjcxNl19
+eyJoaXN0b3J5IjpbMTI4NTE1MzQ5NywtNjUyMTA5MTA4LDE3Mj
+E3NTg0MzMsLTkzNTcxNzk2NywtMTc3NjI5NjcxNCw5MDgwNDQx
+MywtMjA0OTI5MDYyMywtMTUwMDk3OTUwNCwtMTk1NTA0Nzc1MS
+wxODY5NTc5MzI3LC02OTQ3MDEyMTQsLTUxOTQ5NzUxNiwxMTQ1
+NTEzMDAzLC0xNTQ4ODgyMzI1LC0xOTY4NDAwMDEyLDEzODUzND
+M2NSwxMzUwNjg0ODk2LDEwMTg3Mjc4MjAsLTE1NTkyNjIzMzEs
+NzI1Nzc3ODE2XX0=
 -->
