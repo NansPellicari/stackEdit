@@ -78,12 +78,18 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:\_HotKeys/3D_View/Scu
 | :----------------: | ------------ | ------------------------------------ |
 | **edit** | symmetrize | top panel > Mesh > Symmetrize |
 | **sculpting>edit** | dyntopo | dynamically rebuild polygon typology |
+
+## Tutorials
+
+| What | Url |
+| :-- | -- |
+| Bake normal map | https://www.youtube.com/watch?v=tndUB5b4STI |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MDE3MzQ0NywtNzI4MzYzMTc2LC02NT
-IxMDkxMDgsMTcyMTc1ODQzMywtOTM1NzE3OTY3LC0xNzc2Mjk2
-NzE0LDkwODA0NDEzLC0yMDQ5MjkwNjIzLC0xNTAwOTc5NTA0LC
-0xOTU1MDQ3NzUxLDE4Njk1NzkzMjcsLTY5NDcwMTIxNCwtNTE5
-NDk3NTE2LDExNDU1MTMwMDMsLTE1NDg4ODIzMjUsLTE5Njg0MD
-AwMTIsMTM4NTM0MzY1LDEzNTA2ODQ4OTYsMTAxODcyNzgyMCwt
-MTU1OTI2MjMzMV19
+eyJoaXN0b3J5IjpbMTk5MzM3MDE2NSwtNjQwMTczNDQ3LC03Mj
+gzNjMxNzYsLTY1MjEwOTEwOCwxNzIxNzU4NDMzLC05MzU3MTc5
+NjcsLTE3NzYyOTY3MTQsOTA4MDQ0MTMsLTIwNDkyOTA2MjMsLT
+E1MDA5Nzk1MDQsLTE5NTUwNDc3NTEsMTg2OTU3OTMyNywtNjk0
+NzAxMjE0LC01MTk0OTc1MTYsMTE0NTUxMzAwMywtMTU0ODg4Mj
+MyNSwtMTk2ODQwMDAxMiwxMzg1MzQzNjUsMTM1MDY4NDg5Niwx
+MDE4NzI3ODIwXX0=
 -->
