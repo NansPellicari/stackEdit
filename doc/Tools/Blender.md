@@ -84,8 +84,9 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:\_HotKeys/3D_View/Scu
 | What | Url |
 | :-- | -- |
 | Bake normal map | https://www.youtube.com/watch?v=tndUB5b4STI |
+| Normal map decals | https://www.youtube.com/watch?v=zwEXUN83LeI |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MzM3MDE2NSwtNjQwMTczNDQ3LC03Mj
+eyJoaXN0b3J5IjpbLTc0NDk1MDMwMCwtNjQwMTczNDQ3LC03Mj
 gzNjMxNzYsLTY1MjEwOTEwOCwxNzIxNzU4NDMzLC05MzU3MTc5
 NjcsLTE3NzYyOTY3MTQsOTA4MDQ0MTMsLTIwNDkyOTA2MjMsLT
 E1MDA5Nzk1MDQsLTE5NTUwNDc3NTEsMTg2OTU3OTMyNywtNjk0
