@@ -56,6 +56,7 @@
 | **3d viewport** | **edit** | shift+N | Recalculate normal |
 | **3d viewport** | **edit** | S+[Y,Z,X]+0 | Align vertices along the perpendiculary axe (see [here]([https://www.youtube.com/watch?v=vsgi2hNVkM4](https://www.youtube.com/watch?v=vsgi2hNVkM4))) eg. `S+Y+0` and my plan is spread out the Z axe =  it will align to the Z axes |
 | **3d viewport** | **edit** | shift+E | Change crease |
+| **3d viewport** | **edit** | ctrl+E | Edge options (seams,...) |
 | **3d viewport** | **sculpting** | ctrl+D | toggle **dyntop** |
 | **3d viewport** | **sculpting** | shift+D | increase **dyntop** resolution |
 | **3d viewport** | **sculpting** | shift+space | increase **dyntop** resolution |
@@ -86,11 +87,11 @@ some from here : [https://en.wikibooks.org/wiki/Blender_3D:\_HotKeys/3D_View/Scu
 | Bake normal map | https://www.youtube.com/watch?v=tndUB5b4STI |
 | Normal map decals | https://www.youtube.com/watch?v=zwEXUN83LeI |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NDk1MDMwMCwtNjQwMTczNDQ3LC03Mj
-gzNjMxNzYsLTY1MjEwOTEwOCwxNzIxNzU4NDMzLC05MzU3MTc5
-NjcsLTE3NzYyOTY3MTQsOTA4MDQ0MTMsLTIwNDkyOTA2MjMsLT
-E1MDA5Nzk1MDQsLTE5NTUwNDc3NTEsMTg2OTU3OTMyNywtNjk0
-NzAxMjE0LC01MTk0OTc1MTYsMTE0NTUxMzAwMywtMTU0ODg4Mj
-MyNSwtMTk2ODQwMDAxMiwxMzg1MzQzNjUsMTM1MDY4NDg5Niwx
-MDE4NzI3ODIwXX0=
+eyJoaXN0b3J5IjpbMzI0OTMzMTgzLC03NDQ5NTAzMDAsLTY0MD
+E3MzQ0NywtNzI4MzYzMTc2LC02NTIxMDkxMDgsMTcyMTc1ODQz
+MywtOTM1NzE3OTY3LC0xNzc2Mjk2NzE0LDkwODA0NDEzLC0yMD
+Q5MjkwNjIzLC0xNTAwOTc5NTA0LC0xOTU1MDQ3NzUxLDE4Njk1
+NzkzMjcsLTY5NDcwMTIxNCwtNTE5NDk3NTE2LDExNDU1MTMwMD
+MsLTE1NDg4ODIzMjUsLTE5Njg0MDAwMTIsMTM4NTM0MzY1LDEz
+NTA2ODQ4OTZdfQ==
 -->
