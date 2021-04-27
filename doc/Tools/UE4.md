@@ -7,6 +7,7 @@
 ## Usefull code
 
 ### Get string from binary UTF8 string
+
 ```cpp
 TArray<uint8> ReturnedPayload;
 FUTF8ToTCHAR ToTCharConverter(reinterpret_cast<ANSICHAR*>(ReturnedPayload.GetData()), ReturnedPayload.Num());  
@@ -15,5 +16,5 @@ UE_LOG(LogTemp, Warning, TEXT("ToTCharConverter.Length: %i"), ToTCharConverter.L
 UE_LOG(LogTemp, Warning, TEXT("ReturnedPayload(from UTF8): %s"), *OutString);  
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyOTI1ODQxOCwxNzE2MTkwNl19
+eyJoaXN0b3J5IjpbLTYyNDY2NTM3NiwxNzE2MTkwNl19
 -->
