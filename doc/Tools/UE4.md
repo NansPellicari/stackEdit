@@ -22,8 +22,9 @@ UE_LOG(LogTemp, Warning, TEXT("ReturnedPayload(from UTF8): %s"), *OutString);
 keep tracks that:
 ![](https://media.discordapp.net/attachments/826037456881057795/836931897908133918/unknown.png?width=960&height=464)
 
-èEngine\Source\Editor\UnrealEd\Private\Editor.cpp
+`Engine\Source\Editor\UnrealEd\Private\Editor.cpp#CopySinglePropertyRecursive()`
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNTQ1ODE0MSwtOTAxNDIyNzM1LDE3MT
-YxOTA2XX0=
+eyJoaXN0b3J5IjpbLTE4MzYzMjQyNzcsLTkwMTQyMjczNSwxNz
+E2MTkwNl19
 -->
