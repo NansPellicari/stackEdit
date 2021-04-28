@@ -16,6 +16,14 @@ FString OutString(ToTCharConverter.Length(), ToTCharConverter.Get());
 UE_LOG(LogTemp, Warning, TEXT("ToTCharConverter.Length: %i"), ToTCharConverter.Length());  
 UE_LOG(LogTemp, Warning, TEXT("ReturnedPayload(from UTF8): %s"), *OutString);  
 ```
+
+## Reflexion system
+
+keep tracks that:
+![](https://media.discordapp.net/attachments/826037456881057795/836931897908133918/unknown.png?width=960&height=464)
+
+èEngine\Source\Editor\UnrealEd\Private\Editor.cpp
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMTQyMjczNSwxNzE2MTkwNl19
+eyJoaXN0b3J5IjpbMjEzNTQ1ODE0MSwtOTAxNDIyNzM1LDE3MT
+YxOTA2XX0=
 -->
