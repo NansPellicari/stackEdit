@@ -24,7 +24,15 @@ keep tracks that:
 
 `Engine\Source\Editor\UnrealEd\Private\Editor.cpp#CopySinglePropertyRecursive()`
 
+
+## Debug
+```
+// before what you want to debug
+#pragma optimize("", off) // worse perf, better debugging
+// To come back to normal
+#pragma optimize("", on)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzYzMjQyNzcsLTkwMTQyMjczNSwxNz
-E2MTkwNl19
+eyJoaXN0b3J5IjpbMTA1ODA0MDI3MywtMTgzNjMyNDI3NywtOT
+AxNDIyNzM1LDE3MTYxOTA2XX0=
 -->
