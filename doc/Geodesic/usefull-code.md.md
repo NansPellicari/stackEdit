@@ -139,10 +139,15 @@ bool FActorPropertyHandler::GetValue(float& OutValue)
    return (FActorPropertyReader<FFloatProperty, float>(Actor, PropertyPath, OutValue)).Get();  
 }
 
+bool FActorPropertyHandler::SetValue(float InValue)  
+{  
+   return (FActorPropertyWriter<FFloatProperty, float>(Actor, PropertyPath, InValue)).Set();  
+}
+
 ````
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3ODM0MDE3OV19
+eyJoaXN0b3J5IjpbLTEzNDY4ODgzMTBdfQ==
 -->
