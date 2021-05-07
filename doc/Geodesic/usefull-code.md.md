@@ -3,7 +3,7 @@ https://p4-swarm.epicgames.net/reviews/16197795
 
 Entry point to see how serialization is made on properties:
 ```cpp
-F:\Perforce\Denys.Dubinin_DESKTOP-E8JFBMS_5153\Engine\Source\Runtime\Serialization\Private\StructSerializer.cpp
+Engine\Source\Runtime\Serialization\Private\StructSerializer.cpp
 FStructSerializer::SerializeElement()
 ```
 
@@ -158,6 +158,6 @@ bool FActorPropertyHandler::SetValue(float InValue)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk3OTEwMjA5LC00MjUwOTQ3MDcsLTEzND
+eyJoaXN0b3J5IjpbNzQ0MTk2NjQzLC00MjUwOTQ3MDcsLTEzND
 Y4ODgzMTBdfQ==
 -->
