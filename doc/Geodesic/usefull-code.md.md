@@ -5,6 +5,10 @@ Entry point to see how serialization is made on properties:
 ```cpp
 Engine\Source\Runtime\Serialization\Private\StructSerializer.cpp
 FStructSerializer::SerializeElement()
+which call:
+Engine\Source\Runtime\Serialization\Private\StructSerializer.cpp
+StructSerializer::Serialize()
+which call:
 ```
 
 ```cpp
@@ -158,6 +162,6 @@ bool FActorPropertyHandler::SetValue(float InValue)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ0MTk2NjQzLC00MjUwOTQ3MDcsLTEzND
-Y4ODgzMTBdfQ==
+eyJoaXN0b3J5IjpbLTk3MjcxMzkzMywtNDI1MDk0NzA3LC0xMz
+Q2ODg4MzEwXX0=
 -->
