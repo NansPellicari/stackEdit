@@ -1,7 +1,16 @@
 About ndisplay cluster and function replication:
 https://p4-swarm.epicgames.net/reviews/16197795
 
-
+Entry point to see how serialization is made on properties:
+```cpp
+FStructSerializer::SerializeElement(  
+//     FunctionArgs.GetStructMemory(),  
+//     OutProperty.Property,  
+//     INDEX_NONE,  
+//     WriterBackend,  
+//     Policies  
+// );
+```
 
 ```cpp
 include "IStructSerializerBackend.h"  
@@ -154,5 +163,6 @@ bool FActorPropertyHandler::SetValue(float InValue)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNTA5NDcwNywtMTM0Njg4ODMxMF19
+eyJoaXN0b3J5IjpbLTE0NDU5MzgxMjYsLTQyNTA5NDcwNywtMT
+M0Njg4ODMxMF19
 -->
