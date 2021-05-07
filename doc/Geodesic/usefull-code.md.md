@@ -1,4 +1,4 @@
-##About ndisplay cluster and function replication:
+## About ndisplay cluster and function replication:
 https://p4-swarm.epicgames.net/reviews/16197795
 
 ## Entry point to see how serialization is made on properties:
@@ -18,6 +18,8 @@ or
 Engine\Source\Runtime\Serialization\Public\IStructSerializerBackend.h
 FJsonStructSerializerBackend::WriteProperty()
 ```
+
+## try to get and set property dynamically
 
 ```cpp
 include "IStructSerializerBackend.h"  
@@ -170,6 +172,6 @@ bool FActorPropertyHandler::SetValue(float InValue)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MzU0NTAxNCwtNDI1MDk0NzA3LC0xMz
+eyJoaXN0b3J5IjpbMTAxMDY0MTA0MSwtNDI1MDk0NzA3LC0xMz
 Q2ODg4MzEwXX0=
 -->
