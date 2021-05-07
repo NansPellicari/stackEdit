@@ -1,14 +1,22 @@
-About ndisplay cluster and function replication:
+##About ndisplay cluster and function replication:
 https://p4-swarm.epicgames.net/reviews/16197795
 
-Entry point to see how serialization is made on properties:
+## Entry point to see how serialization is made on properties:
 ```cpp
 Engine\Source\Runtime\Serialization\Private\StructSerializer.cpp
 FStructSerializer::SerializeElement()
+```
 which call:
+```cpp
 Engine\Source\Runtime\Serialization\Private\StructSerializer.cpp
 StructSerializer::Serialize()
+```
 which call:
+```cpp
+Engine\Source\Runtime\Serialization\Public\IStructSerializerBackend.h
+or 
+Engine\Source\Runtime\Serialization\Public\IStructSerializerBackend.h
+FJsonStructSerializerBackend::WriteProperty()
 ```
 
 ```cpp
@@ -162,6 +170,6 @@ bool FActorPropertyHandler::SetValue(float InValue)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MjcxMzkzMywtNDI1MDk0NzA3LC0xMz
+eyJoaXN0b3J5IjpbMTY3MzU0NTAxNCwtNDI1MDk0NzA3LC0xMz
 Q2ODg4MzEwXX0=
 -->
