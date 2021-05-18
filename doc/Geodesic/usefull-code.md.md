@@ -173,7 +173,7 @@ bool FActorPropertyHandler::SetValue(float InValue)
 ````cpp
 URemoteControlPreset* CreateAsset()
 {
-UClass* AssetClass = URemoteControlPreset::StaticClass();  
+   UClass* AssetClass = URemoteControlPreset::StaticClass();  
   
    // In game mode it seems that this package is created in memory  
   AssetPackage = TStrongObjectPtr<UPackage>(CreatePackage(*PackageName));  
@@ -200,10 +200,31 @@ UClass* AssetClass = URemoteControlPreset::StaticClass();
    );  
   
    return CreatedAsset.Get();
-   ````
+  }
+  
+void Save()  
+{  
+#if WITH_EDITOR  
+ if (AssetPackage.IsValid() && CreatedAsset.IsValid())  
+   {  
+      bool bSaved = UPackage::SavePackage(  
+         AssetPackage.Get(),  
+         CreatedAsset.Get(),  
+         RF_Public | RF_Standalone,  
+         *(PathOnDisk + FPackageName::GetAssetPackageExtension()),  
+         GError,  
+         nullptr,  
+         true,  
+         true,  
+         SAVE_NoError  
+  );  
+   }  
+#endif  
+}
+````
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY5NDcxNjE5LDEwMTA2NDEwNDEsLTQyNT
-A5NDcwNywtMTM0Njg4ODMxMF19
+eyJoaXN0b3J5IjpbMTA2Mjc4MTkzMiwxMDEwNjQxMDQxLC00Mj
+UwOTQ3MDcsLTEzNDY4ODgzMTBdfQ==
 -->
