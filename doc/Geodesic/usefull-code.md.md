@@ -178,15 +178,11 @@ struct FCreatePresetAsset
   
   explicit FTempPresetAsset(const FString& InAssetName);  
   
-  const FString AssetName;  
-   /** TODO doc */  
+  const FString AssetName; 
   TStrongObjectPtr<UPackage> AssetPackage = nullptr;  
-
   TStrongObjectPtr<URemoteControlPreset> CreatedAsset = nullptr;  
   FString PackageFolder;  
-   /** TODO doc */  
   const FString PackageName;  
-   /** TODO doc */  
   FString PathOnDisk;  
 
 	URemoteControlPreset* Create()
@@ -257,6 +253,6 @@ struct FCreatePresetAsset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNDA3ODQxNywxMDEwNjQxMDQxLC00Mj
+eyJoaXN0b3J5IjpbLTEyMzY5NjUwNywxMDEwNjQxMDQxLC00Mj
 UwOTQ3MDcsLTEzNDY4ODgzMTBdfQ==
 -->
