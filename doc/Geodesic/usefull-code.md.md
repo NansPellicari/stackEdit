@@ -180,15 +180,11 @@ struct FCreatePresetAsset
    : AssetName(InAssetName),  
      PackageFolder(FString::Printf(  
            TEXT("/Game/%s"),  
-           AssetFolder  
-  )  
-     ),  
+           AssetFolder)),  
      PackageName(FString::Printf(  
            TEXT("%s/%s"),  
            *PackageFolder,  
-           *AssetName  
-  )  
-     )  
+           *AssetName ))  
 {  
    FPackageName::TryConvertLongPackageNameToFilename(PackageName, PathOnDisk);  
 }
@@ -268,6 +264,6 @@ struct FCreatePresetAsset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgzMjIwNzc3LC0xMjM2OTY1MDcsMTAxMD
-Y0MTA0MSwtNDI1MDk0NzA3LC0xMzQ2ODg4MzEwXX0=
+eyJoaXN0b3J5IjpbMTc3MDU5ODU4MSwtMTIzNjk2NTA3LDEwMT
+A2NDEwNDEsLTQyNTA5NDcwNywtMTM0Njg4ODMxMF19
 -->
