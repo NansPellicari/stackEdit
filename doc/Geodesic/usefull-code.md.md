@@ -176,7 +176,22 @@ struct FCreatePresetAsset
 {  
   static constexpr auto AssetFolder = TEXT("RC_TempAssetFolder");  
   
-  explicit FTempPresetAsset(const FString& InAssetName);  
+  explicit FTempPresetAsset(const FString& InAssetName)  
+   : AssetName(InAssetName),  
+     PackageFolder(FString::Printf(  
+           TEXT("/Game/%s"),  
+           AssetFolder  
+  )  
+     ),  
+     PackageName(FString::Printf(  
+           TEXT("%s/%s"),  
+           *PackageFolder,  
+           *AssetName  
+  )  
+     )  
+{  
+   FPackageName::TryConvertLongPackageNameToFilename(PackageName, PathOnDisk);  
+}
   
   const FString AssetName; 
   TStrongObjectPtr<UPackage> AssetPackage = nullptr;  
@@ -253,6 +268,6 @@ struct FCreatePresetAsset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzY5NjUwNywxMDEwNjQxMDQxLC00Mj
-UwOTQ3MDcsLTEzNDY4ODgzMTBdfQ==
+eyJoaXN0b3J5IjpbODgzMjIwNzc3LC0xMjM2OTY1MDcsMTAxMD
+Y0MTA0MSwtNDI1MDk0NzA3LC0xMzQ2ODg4MzEwXX0=
 -->
