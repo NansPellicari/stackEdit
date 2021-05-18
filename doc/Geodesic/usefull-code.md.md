@@ -169,7 +169,7 @@ bool FActorPropertyHandler::SetValue(float InValue)
 
 ```
 
-## Get 
+## Create an asset with its package
 
 ````cpp
 struct FCreatePresetAsset  
@@ -264,6 +264,7 @@ struct FCreatePresetAsset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MDU5ODU4MSwtMTIzNjk2NTA3LDEwMT
-A2NDEwNDEsLTQyNTA5NDcwNywtMTM0Njg4ODMxMF19
+eyJoaXN0b3J5IjpbLTkxNjQ2Njg2OCwxNzcwNTk4NTgxLC0xMj
+M2OTY1MDcsMTAxMDY0MTA0MSwtNDI1MDk0NzA3LC0xMzQ2ODg4
+MzEwXX0=
 -->
