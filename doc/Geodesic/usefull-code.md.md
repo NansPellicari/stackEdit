@@ -167,11 +167,43 @@ bool FActorPropertyHandler::SetValue(float InValue)
    return (FActorPropertyWriter<FFloatProperty, float>(Actor, PropertyPath, InValue)).Set();  
 }
 
-````
+```
 
+## Get 
+````cpp
+URemoteControlPreset* CreateAsset()
+{
+UClass* AssetClass = URemoteControlPreset::StaticClass();  
+  
+   // In game mode it seems that this package is created in memory  
+  AssetPackage = TStrongObjectPtr<UPackage>(CreatePackage(*PackageName));  
+   if (!ensure(AssetPackage))  
+   {  
+      return nullptr;  
+   }  
+  
+   EObjectFlags Flags = RF_Public | RF_Standalone;  
+  
+#if WITH_EDITOR  
+  Flags |= RF_Transactional;  
+#endif  
+  
+  CreatedAsset = TStrongObjectPtr<URemoteControlPreset>(  
+ NewObject<URemoteControlPreset>(AssetPackage.Get(), AssetClass, FName(*AssetName), Flags)  
+   );  
+  
+   UPackage::SavePackage(  
+      AssetPackage.Get(),  
+      CreatedAsset.Get(),  
+      RF_Public | RF_Standalone,  
+      *(PathOnDisk + FPackageName::GetAssetPackageExtension())  
+   );  
+  
+   return CreatedAsset.Get();
+   ````
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMDY0MTA0MSwtNDI1MDk0NzA3LC0xMz
-Q2ODg4MzEwXX0=
+eyJoaXN0b3J5IjpbMzY5NDcxNjE5LDEwMTA2NDEwNDEsLTQyNT
+A5NDcwNywtMTM0Njg4ODMxMF19
 -->
