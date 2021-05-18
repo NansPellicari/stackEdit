@@ -170,61 +170,93 @@ bool FActorPropertyHandler::SetValue(float InValue)
 ```
 
 ## Get 
+
 ````cpp
-URemoteControlPreset* CreateAsset()
-{
-   UClass* AssetClass = URemoteControlPreset::StaticClass();  
-  
-   // In game mode it seems that this package is created in memory  
-  AssetPackage = TStrongObjectPtr<UPackage>(CreatePackage(*PackageName));  
-   if (!ensure(AssetPackage))  
-   {  
-      return nullptr;  
-   }  
-  
-   EObjectFlags Flags = RF_Public | RF_Standalone;  
-  
-#if WITH_EDITOR  
-  Flags |= RF_Transactional;  
-#endif  
-  
-  CreatedAsset = TStrongObjectPtr<URemoteControlPreset>(  
- NewObject<URemoteControlPreset>(AssetPackage.Get(), AssetClass, FName(*AssetName), Flags)  
-   );  
-  
-   UPackage::SavePackage(  
-      AssetPackage.Get(),  
-      CreatedAsset.Get(),  
-      RF_Public | RF_Standalone,  
-      *(PathOnDisk + FPackageName::GetAssetPackageExtension())  
-   );  
-  
-   return CreatedAsset.Get();
-  }
-  
-void Save()  
+struct FCreatePresetAsset  
 {  
-#if WITH_EDITOR  
- if (AssetPackage.IsValid() && CreatedAsset.IsValid())  
-   {  
-      bool bSaved = UPackage::SavePackage(  
-         AssetPackage.Get(),  
-         CreatedAsset.Get(),  
-         RF_Public | RF_Standalone,  
-         *(PathOnDisk + FPackageName::GetAssetPackageExtension()),  
-         GError,  
-         nullptr,  
-         true,  
-         true,  
-         SAVE_NoError  
-  );  
-   }  
-#endif  
+  static constexpr auto AssetFolder = TEXT("RC_TempAssetFolder");  
+  
+  explicit FTempPresetAsset(const FString& InAssetName);  
+  
+  const FString AssetName;  
+   /** TODO doc */  
+  TStrongObjectPtr<UPackage> AssetPackage = nullptr;  
+
+  TStrongObjectPtr<URemoteControlPreset> CreatedAsset = nullptr;  
+  FString PackageFolder;  
+   /** TODO doc */  
+  const FString PackageName;  
+   /** TODO doc */  
+  FString PathOnDisk;  
+
+	URemoteControlPreset* Create()
+	{
+	   UClass* AssetClass = URemoteControlPreset::StaticClass();  
+	  
+	   // In game mode it seems that this package is created in memory  
+	  AssetPackage = TStrongObjectPtr<UPackage>(CreatePackage(*PackageName));  
+	   if (!ensure(AssetPackage))  
+	   {  
+	      return nullptr;  
+	   }  
+	  
+	   EObjectFlags Flags = RF_Public | RF_Standalone;  
+	  
+	#if WITH_EDITOR  
+	  Flags |= RF_Transactional;  
+	#endif  
+	  
+	  CreatedAsset = TStrongObjectPtr<URemoteControlPreset>(  
+	 NewObject<URemoteControlPreset>(AssetPackage.Get(), AssetClass, FName(*AssetName), Flags)  
+	   );  
+	  
+	   UPackage::SavePackage(  
+	      AssetPackage.Get(),  
+	      CreatedAsset.Get(),  
+	      RF_Public | RF_Standalone,  
+	      *(PathOnDisk + FPackageName::GetAssetPackageExtension())  
+	   );  
+	  
+	   return CreatedAsset.Get();
+	  }
+	  
+	void Save()  
+	{  
+	#if WITH_EDITOR  
+	 if (AssetPackage.IsValid() && CreatedAsset.IsValid())  
+	   {  
+	      bool bSaved = UPackage::SavePackage(  
+	         AssetPackage.Get(),  
+	         CreatedAsset.Get(),  
+	         RF_Public | RF_Standalone,  
+	         *(PathOnDisk + FPackageName::GetAssetPackageExtension()),  
+	         GError,  
+	         nullptr,  
+	         true,  
+	         true,  
+	         SAVE_NoError  
+	  );  
+	   }  
+	#endif  
+	}
+	void FTempPresetAsset::Delete()  
+	{  
+	   AssetPackage.Reset();  
+	   CreatedAsset.Reset();  
+	#if WITH_EDITOR  
+	  // Because this is called when the module shutdown, all assets are already unload,  
+	 // we can only removed the asset directly from the disk. FString PathToDeleteOnDisk;  
+	   if (FPackageName::TryConvertLongPackageNameToFilename(PackageFolder, PathToDeleteOnDisk))  
+	   {  
+	      IFileManager::Get().DeleteDirectory(*PathToDeleteOnDisk, false, true);  
+	   }  
+	#endif  
+	}
 }
 ````
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2Mjc4MTkzMiwxMDEwNjQxMDQxLC00Mj
+eyJoaXN0b3J5IjpbMTkzNDA3ODQxNywxMDEwNjQxMDQxLC00Mj
 UwOTQ3MDcsLTEzNDY4ODgzMTBdfQ==
 -->
