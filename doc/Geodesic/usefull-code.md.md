@@ -262,9 +262,14 @@ struct FCreatePresetAsset
 }
 ````
 
+## Convert Bytes String with terminator, without terminator
+
+````cpp
+FString PayloadBaseString(InPayload.Num() / sizeof(TCHAR), reinterpret_cast<const TCHAR*>(InPayload.GetData()));
+````
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNjQ2Njg2OCwxNzcwNTk4NTgxLC0xMj
-M2OTY1MDcsMTAxMDY0MTA0MSwtNDI1MDk0NzA3LC0xMzQ2ODg4
-MzEwXX0=
+eyJoaXN0b3J5IjpbLTEzOTkzOTc1MTcsLTkxNjQ2Njg2OCwxNz
+cwNTk4NTgxLC0xMjM2OTY1MDcsMTAxMDY0MTA0MSwtNDI1MDk0
+NzA3LC0xMzQ2ODg4MzEwXX0=
 -->
