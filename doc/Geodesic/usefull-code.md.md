@@ -267,9 +267,18 @@ struct FCreatePresetAsset
 ````cpp
 FString PayloadBaseString(InPayload.Num() / sizeof(TCHAR), reinterpret_cast<const TCHAR*>(InPayload.GetData()));
 ````
-> Written with [StackEdit](https://stackedit.io/).
+
+## Debug UStruct
+
+```
+ObjectPropertyTrace::IterateProperties(RCFunction->GetFunction(), FunctionArgs.GetStructMemory(),  
+   [](const FString& InType, const FString& InKey, const FString& InValue, int32 InId, int32 InParentId)  
+{  
+   UE_LOG(LogTemp, Warning, TEXT("DebugDefaultProps -- %s(%s): %s"), *InKey, *InType, *InValue);  
+});
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTkzOTc1MTcsLTkxNjQ2Njg2OCwxNz
-cwNTk4NTgxLC0xMjM2OTY1MDcsMTAxMDY0MTA0MSwtNDI1MDk0
-NzA3LC0xMzQ2ODg4MzEwXX0=
+eyJoaXN0b3J5IjpbLTE0MTM3Nzc3MTQsLTEzOTkzOTc1MTcsLT
+kxNjQ2Njg2OCwxNzcwNTk4NTgxLC0xMjM2OTY1MDcsMTAxMDY0
+MTA0MSwtNDI1MDk0NzA3LC0xMzQ2ODg4MzEwXX0=
 -->
