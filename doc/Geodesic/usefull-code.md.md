@@ -277,6 +277,12 @@ FString PayloadBaseString(InPayload.Num() / sizeof(TCHAR), reinterpret_cast<cons
 // "TraceServices",  
 // "TraceInsights",  
 // "GameplayInsights"
+/* in .uplugins or .uproject
+{  
+  "Name": "GameplayInsights",  
+  "Enabled": false  
+}
+*/
 
 #if WITH_EDITOR  
 #include "C:\Users\nansp\Perforce\Denys.Dubinin_MSI_853\Engine\Plugins\Animation\GameplayInsights\Source\GameplayInsights\Private\ObjectPropertyTrace.h"  
@@ -290,8 +296,9 @@ ObjectPropertyTrace::IterateProperties(RCFunction->GetFunction(), FunctionArgs.G
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzE3MDM0ODksLTUyNTE1NjAxNSwtMT
-MzNTI0MjExNCwtMTQxMzc3NzcxNCwtMTM5OTM5NzUxNywtOTE2
-NDY2ODY4LDE3NzA1OTg1ODEsLTEyMzY5NjUwNywxMDEwNjQxMD
-QxLC00MjUwOTQ3MDcsLTEzNDY4ODgzMTBdfQ==
+eyJoaXN0b3J5IjpbNDIxNDMzMjc0LC0xMDcxNzAzNDg5LC01Mj
+UxNTYwMTUsLTEzMzUyNDIxMTQsLTE0MTM3Nzc3MTQsLTEzOTkz
+OTc1MTcsLTkxNjQ2Njg2OCwxNzcwNTk4NTgxLC0xMjM2OTY1MD
+csMTAxMDY0MTA0MSwtNDI1MDk0NzA3LC0xMzQ2ODg4MzEwXX0=
+
 -->
