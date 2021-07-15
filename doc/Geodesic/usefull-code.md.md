@@ -285,8 +285,8 @@ FString PayloadBaseString(InPayload.Num() / sizeof(TCHAR), reinterpret_cast<cons
 */
 
 #if WITH_EDITOR  
-#include "C:\Users\nansp\Perforce\Denys.Dubinin_MSI_853\Engine\Plugins\Animation\GameplayInsights\Source\GameplayInsights\Private\ObjectPropertyTrace.h"  
-#include "C:\Users\nansp\Perforce\Denys.Dubinin_MSI_853\Engine\Plugins\Animation\GameplayInsights\Source\GameplayInsights\Private\ObjectPropertyTrace.cpp"  
+#include "[RootUE4Path]Engine\Plugins\Animation\GameplayInsights\Source\GameplayInsights\Private\ObjectPropertyTrace.h"  
+#include "[RootUE4Path]Engine\Plugins\Animation\GameplayInsights\Source\GameplayInsights\Private\ObjectPropertyTrace.cpp"  
 #endif
 
 FStructOnScope FunctionArgs{RCFunction->GetFunction()};
@@ -297,9 +297,9 @@ ObjectPropertyTrace::IterateProperties(RCFunction->GetFunction(), FunctionArgs.G
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MjE4NjY3Myw0MjE0MzMyNzQsLTEwNz
-E3MDM0ODksLTUyNTE1NjAxNSwtMTMzNTI0MjExNCwtMTQxMzc3
-NzcxNCwtMTM5OTM5NzUxNywtOTE2NDY2ODY4LDE3NzA1OTg1OD
-EsLTEyMzY5NjUwNywxMDEwNjQxMDQxLC00MjUwOTQ3MDcsLTEz
-NDY4ODgzMTBdfQ==
+eyJoaXN0b3J5IjpbMzkzOTE0NzE5LDQyMTQzMzI3NCwtMTA3MT
+cwMzQ4OSwtNTI1MTU2MDE1LC0xMzM1MjQyMTE0LC0xNDEzNzc3
+NzE0LC0xMzk5Mzk3NTE3LC05MTY0NjY4NjgsMTc3MDU5ODU4MS
+wtMTIzNjk2NTA3LDEwMTA2NDEwNDEsLTQyNTA5NDcwNywtMTM0
+Njg4ODMxMF19
 -->
