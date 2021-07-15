@@ -289,6 +289,7 @@ FString PayloadBaseString(InPayload.Num() / sizeof(TCHAR), reinterpret_cast<cons
 #include "C:\Users\nansp\Perforce\Denys.Dubinin_MSI_853\Engine\Plugins\Animation\GameplayInsights\Source\GameplayInsights\Private\ObjectPropertyTrace.cpp"  
 #endif
 
+FStructOnScope FunctionArgs{RCFunction->GetFunction()};
 ObjectPropertyTrace::IterateProperties(RCFunction->GetFunction(), FunctionArgs.GetStructMemory(),  
    [](const FString& InType, const FString& InKey, const FString& InValue, int32 InId, int32 InParentId)  
 {  
@@ -296,9 +297,9 @@ ObjectPropertyTrace::IterateProperties(RCFunction->GetFunction(), FunctionArgs.G
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIxNDMzMjc0LC0xMDcxNzAzNDg5LC01Mj
-UxNTYwMTUsLTEzMzUyNDIxMTQsLTE0MTM3Nzc3MTQsLTEzOTkz
-OTc1MTcsLTkxNjQ2Njg2OCwxNzcwNTk4NTgxLC0xMjM2OTY1MD
-csMTAxMDY0MTA0MSwtNDI1MDk0NzA3LC0xMzQ2ODg4MzEwXX0=
-
+eyJoaXN0b3J5IjpbMTM5MjE4NjY3Myw0MjE0MzMyNzQsLTEwNz
+E3MDM0ODksLTUyNTE1NjAxNSwtMTMzNTI0MjExNCwtMTQxMzc3
+NzcxNCwtMTM5OTM5NzUxNywtOTE2NDY2ODY4LDE3NzA1OTg1OD
+EsLTEyMzY5NjUwNywxMDEwNjQxMDQxLC00MjUwOTQ3MDcsLTEz
+NDY4ODgzMTBdfQ==
 -->
